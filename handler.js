@@ -28,7 +28,7 @@ module.exports = {
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
-                    if (!isNumber(user.limit)) user.limit = 1000
+                    if (!isNumber(user.limit)) user.limit = 15
                     if (!isNumber(user.joinlimit)) user.joinlimit = 1
                     if (!isNumber(user.money)) user.money = 100000
                     if (!isNumber(user.bank)) user.bank = 100000
@@ -277,12 +277,12 @@ module.exports = {
                     if (!isNumber(user.lastadventure)) user.lastadventure = 0
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 1000,
+                    limit: 15,
                     joinlimit: 1,
                     spammer: 0,
                     limitspam: 0,
                     money: 10000,
-                    bank: 10000,
+                    bank: 20000,
                     health: 100,
                     tiketcoin: 0,
                     healtmonster: 100,
@@ -731,7 +731,7 @@ module.exports = {
                     }
                     m.isCommand = true
                     let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
-                    if (xp > 9999999999999999999999) m.reply('Ngecit -_-') // Hehehe
+                    if (xp > 9999999999999) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
                      //   this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
@@ -790,7 +790,7 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                       // if (m.limit) m.reply(+ m.limit + ' Limit used')
+                       if (m.limit) m.reply(+ m.limit + ' Limit used')
                     }
                     break
                 }
