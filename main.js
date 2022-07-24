@@ -41,15 +41,15 @@ const PORT = process.env.PORT || 3000
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp('^[' + (opts['prefix'] || 'â€ŽxzXZ/i!#$%+Â£Â¢â‚¬Â¥^Â°=Â¶âˆ†Ã—Ã·Ï€âˆšâœ“Â©Â®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
 
-/*
+
 global.db = new Low(
   /https?:\/\//.test(opts['db'] || '') ?
     new cloudDBAdapter(opts['db']) : /mongodb/i.test(opts['db']) ?
       new mongoDB(opts['db']) :
       new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`)
-)*/
+)
 
-global.db = new Low(new mongoDB('mongodb+srv://Metafor1000:metafor1000@cluster0.qy9jg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'))
+//global.db = new Low(new mongoDB('mongodb+srv://Metafor1000:metafor1000@cluster0.qy9jg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'))
 
 global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
