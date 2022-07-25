@@ -59,7 +59,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].lasteasy = new Date * 1
                                          let srcz = `
 Berhasil melawan Bosraid..
-Bos pet aine telah dikalahkan..
+Bos pet telah dikalahkan..
 
 Pet kamu telah turun level..!! 😲
 Kucing Level : *-${easyz}*
@@ -268,7 +268,7 @@ Makanan Centaur : *+${makanancentaurc}*
 handler.help = ['bosraid <mode>']
 handler.tags = ['game']
 handler.command = /^(bosraid)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

@@ -1179,7 +1179,7 @@ let type = (args[0] || '').toLowerCase()
 handler.help = ['bekerja [1-30]']
 handler.tags = ['rpg']
 handler.command = /^(bekerja)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

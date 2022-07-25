@@ -32,6 +32,5 @@ handler.help = ['suitpvp'].map(v => v + ' @tag')
 handler.command = /^suitpvp$/i
 
 handler.group = true
-handler.limit = true
 
 module.exports = handler

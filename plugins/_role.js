@@ -22,19 +22,19 @@ const roles = {
   'Role Name': <Minimal Level To Obtain this Role>
   */
   'Beginner': 0, 
-  'Early Soldier': 5,
-  'Commander': 10,
-  'Initial Commander': 15,
-  'Commander Elite': 20,
-  'Initial Commander Elit': 25,
-  'Commander Elite Hero': 30,
-  'The Commander Elite Super Strong Hero': 40,
-  'The Commander Elite Super Strong Shadow Hero': 50,
-  'The Commander Legends Shadow Hero': 60,
-  'The Commander Super Legends Shadow Hero': 70,
-  'The Commander Super Legends Shadow Hero': 80,
-  'The Strongest Legend': 90,
-  'The Hero Of The Legend\'s Strongest': 100
+  'Kitten Town': 5,
+  'Black Woods': 10,
+  'Farmount': 15,
+  'Rosenvale': 20,
+  'Amberhill': 25,
+  'Master Woods': 30,
+  'Hero Town': 40,
+  'The Elite': 50,
+  'Master Elite': 60,
+  'Knight Kingdom': 70,
+  'Dark Knight': 80,
+  'Shadow Knight': 90,
+  'The Legend': 100
 }
 
 module.exports = {

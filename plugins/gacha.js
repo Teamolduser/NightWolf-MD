@@ -1163,7 +1163,7 @@ Anda telah membuka *Legendary crate* dan mendapatkan:${lm3 > 0 ? `\nMoney: ${lm3
 handler.help = ['open <crate>']
 handler.tags = ['rpg']
 handler.command = /^(open)$/i
-handler.limit = true
+
 handler.group = true
 
 handler.fail = null

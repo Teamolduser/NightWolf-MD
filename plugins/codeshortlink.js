@@ -19,7 +19,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 // handler.help = ['codeshortlink']
 // handler.tags = ['rpgabsen']
 handler.command = /^(codeshortlink)$/i
-handler.limit = true
+
 handler.private = false
 
 module.exports = handler

@@ -11,7 +11,7 @@ handler.help = ['quotes']
 handler.tags = ['quotes']
 handler.command = /^quotes$/i
 handler.owner = false
-handler.limit = true
+
 handler.premium = false
 handler.group = false
 handler.private = false

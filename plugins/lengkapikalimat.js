@@ -29,7 +29,6 @@ Bonus: ${poin} XP
 handler.help = ['lengkapikalimat']
 handler.tags = ['game']
 handler.command = /^lengkapikalimat/i
-handler.limit = true
 handler.group = true
 
 module.exports = handler

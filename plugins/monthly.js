@@ -19,7 +19,6 @@ let handler = async (m, { isPrems }) => {
 handler.help = ['monthly']
 handler.tags = ['rpgabsen']
 handler.command = /^(monthly)$/i
-handler.limit = true
 
 handler.fail = null
 

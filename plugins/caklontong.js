@@ -32,6 +32,5 @@ Tiketcoin: ${tiketcoin} TiketCoin
 handler.help = ['caklontong']
 handler.tags = ['game']
 handler.command = /^caklontong/i
-handler.limit = true
 
 module.exports = handler

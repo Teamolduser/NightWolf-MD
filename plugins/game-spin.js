@@ -104,7 +104,6 @@ handler.tags = ['game']
 handler.command = /^(spin)$/i
 handler.owner = false
 handler.group = true
-handler.limit = true
 
 handler.exp = 0
 module.exports = handler

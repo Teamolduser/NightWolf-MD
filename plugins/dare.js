@@ -38,6 +38,5 @@ let der = dares[Math.floor(Math.random() * dares.length)]
 handler.help = ['dare']
 handler.tags = ['fun']
 handler.command = /^(dare|berani|tantangan)$/i
-handler.limit = true
 
 module.exports = handler

@@ -1,4 +1,4 @@
-let fetch = require('node-fetch')
+/*let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
@@ -54,3 +54,4 @@ module.exports = handler
 function pickRandom(list) {
         return list[Math.floor(Math.random() * list.length)]
     }
+*/

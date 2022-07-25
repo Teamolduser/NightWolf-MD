@@ -150,8 +150,6 @@ handler.help = ['infobot']
 handler.tags = ['info']
 handler.command = /^(infobot)$/i
 
-handler.limit = true
-
 module.exports = handler
 
 function kyun(seconds){

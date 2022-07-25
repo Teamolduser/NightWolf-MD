@@ -287,7 +287,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['feed [pet type]']
 handler.tags = ['rpg']
 handler.command = /^(feed(ing)?)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

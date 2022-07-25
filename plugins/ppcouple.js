@@ -41,7 +41,7 @@ handler.help = ['ppcouple']
 handler.tags = ['internet']
 handler.command = /^ppcouple|ppcp$/i
 handler.owner = false
-handler.limit = true
+
 handler.premium = false
 handler.group = false
 handler.private = false

@@ -55,7 +55,7 @@ conn.level = global.db.data.users[m.sender]
 handler.help = ['fighting']
 handler.tags = ['game']
 handler.command = /^(fight(ing)?)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

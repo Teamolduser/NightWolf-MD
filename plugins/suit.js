@@ -44,6 +44,5 @@ handler.tags = ['game']
 handler.command = /^(suit)$/i
 handler.group = true
 handler.register = true
-handler.limit = true
 
 module.exports = handler

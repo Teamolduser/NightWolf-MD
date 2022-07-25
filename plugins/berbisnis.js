@@ -57,7 +57,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.help = ['berbisnis']
 handler.tags = ['rpg']
 handler.command = /^berbisnis$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

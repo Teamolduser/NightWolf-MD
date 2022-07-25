@@ -55,7 +55,7 @@ conn.hero = global.db.data.users[m.sender]
 handler.help = ['duelhero']
 handler.tags = ['game']
 handler.command = /^(duelhero)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

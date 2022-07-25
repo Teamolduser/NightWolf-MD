@@ -27,7 +27,7 @@ let nomors = m.sender
 handler.help = ['membunuh *@tag*']
 handler.tags = ['rpg']
 handler.command = /^membunuh$/
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

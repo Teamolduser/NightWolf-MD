@@ -544,7 +544,6 @@ Selamat kamu mendapatkan Exp:
 handler.help = ['meracik [type]']
 handler.tags = ['rpg']
 handler.command = /^(meracik|racik)$/i
-handler.limit = true
 handler.group = true
 
 module.exports = handler

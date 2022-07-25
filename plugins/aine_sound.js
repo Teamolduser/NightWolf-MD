@@ -4,10 +4,9 @@ let helloaine = fs.readFileSync('./mp3/WhatsApp-Audio-2021-03-02-at-20.52.32-_2_
 conn.sendFile(m.chat, helloaine, '', '', m, true)
 }
 
-handler.customPrefix = /^(aine)$/i
+handler.customPrefix = /^(Hai|hi|halo|hallo)$/i
 handler.command = new RegExp
 
-handler.limit = true
 handler.mods = false 
 handler.premium = false
 handler.group = false 

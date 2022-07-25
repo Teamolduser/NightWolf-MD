@@ -41,7 +41,7 @@ let handler = async (m, { conn, args, usedPrefix, isOwner }) => {
 handler.help = ['judi <jumlah>']
 handler.tags = ['game']
 handler.command = /^(judi)$/i
-handler.limit = true
+
 handler.group = true
 
 handler.fail = null

@@ -18,7 +18,6 @@ ${text}
 handler.help = ['gimage <search>']
 handler.tags = ['internet']
 handler.command = /^(gimage|image)$/i
-handler.limit = true
 
 module.exports = handler
 

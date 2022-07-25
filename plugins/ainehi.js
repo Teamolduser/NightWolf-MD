@@ -1,4 +1,4 @@
-let fs = require('fs')
+/*let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
 let helloaine = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-07-14-at-18.12.33.opus') 
@@ -17,3 +17,4 @@ handler.group = false
 handler.private = false
 
 module.exports = handler
+*/

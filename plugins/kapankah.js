@@ -12,7 +12,6 @@ handler.help = ['', 'kah'].map(v => 'kapan' + v + ' <text>?')
 handler.tags = ['kerang']
 
 handler.command = /^kapan(kah)?$/i
-handler.limit = true
 
 handler.fail = null
 

@@ -11,7 +11,6 @@ let handler = async (m, { text,usedPrefix,command }) => {
 handler.help = ['drakor [text]']
 handler.tags = ['internet']
 handler.command = /^drakor$/i
-handler.limit = true
 
 module.exports = handler
 

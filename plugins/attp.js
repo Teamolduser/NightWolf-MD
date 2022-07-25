@@ -6,6 +6,5 @@ handler.help = ['attp <teks>']
 handler.tags = ['sticker']
 
 handler.command = /^attp$/i
-handler.limit = true
 
 module.exports = handler

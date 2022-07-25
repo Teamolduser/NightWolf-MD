@@ -69,7 +69,7 @@ Nyawa mu berkurang -${health * 1} karena Kamu telah berpetualang sampai ${pickRa
 handler.help = ['adventure']
 handler.tags = ['rpg']
 handler.command = /^(adventure)$/i
-handler.limit = true
+
 handler.group = true
 handler.fail = null
 

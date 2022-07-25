@@ -13,6 +13,5 @@ let handler = async(m, { conn }) => {
 handler.help = ['metronews']
 handler.tags = ['berita']
 handler.command = /^metro(news)?$/i
-handler.limit = true
 
 module.exports = handler

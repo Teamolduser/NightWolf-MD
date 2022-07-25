@@ -16,6 +16,5 @@ let handler = async(m, { conn }) => {
 handler.help = ['liputan6']
 handler.tags = ['berita']
 handler.command = /^liputan6(news)?$/i
-handler.limit = true
 
 module.exports = handler

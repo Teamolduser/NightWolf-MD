@@ -24,7 +24,6 @@ handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
-handler.limit = true
 
 handler.admin = false
 handler.botAdmin = false

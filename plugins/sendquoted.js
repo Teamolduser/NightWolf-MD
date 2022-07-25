@@ -7,5 +7,4 @@ async function handler(m) {
 handler.help = ['q']
 handler.tags = ['tools']
 handler.command = /^q$/i
-handler.limit = true
 module.exports = handler

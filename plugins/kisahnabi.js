@@ -10,7 +10,6 @@ handler.help = ['kisahnabi <name>']
 handler.tags = ['islami']
 handler.command = /^kisahnabi$/i
 handler.register = false
-handler.limit = true
 
 module.exports = handler
                    

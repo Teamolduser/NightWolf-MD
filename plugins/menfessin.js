@@ -7,7 +7,7 @@ async function handler(m, { conn, text, usedPrefix, command }) {
 	if (room) throw 'Kamu masih berada di anonymous chat\nBerhenti mencari partner untuk menggunakan fitur ini'
     let username = conn.getName(m.sender) 
     const teks1 = `*${username.replace(/@.+/, '')}:* ${text}`
-    conn.reply('6289654360447-1605198136@g.us', text)
+    conn.reply('6285640104318-1605198136@g.us', text)
     conn.reply(m.chat, '✔️ Berhasil terkirim group menffesin..', m)
 }
 handler.help = ['mf <text>']

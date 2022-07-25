@@ -10,16 +10,16 @@ let handler = async (m, { conn, args, usedPrefix, command, groupMetadata }) => {
     
     let user = global.db.data.users[m.sender]
     if (user.money == 0) return m.reply('*Pastikan kamu memiliki money*')
-    if (global.db.data.users[m.sender].money > 100000000) {
+    if (global.db.data.users[m.sender].money > 1000000) {
     if (now < global.db.data.chats[m.chat].expired) global.db.data.chats[m.chat].expired += 86400000
     else global.db.data.chats[m.chat].expired = + 86400000
-    m.reply(`Berhasil menetapkan hari kedaluarsa untuk ${groupMetadata.subject} selama +1 hari.\n\n-100000000 Money\n${user.money -= 100000000} Total Money\n\nHitung Mundur : ${msToDate(global.db.data.chats[m.chat].expired - now)}`)
-    } else m.reply(`Pastikan kamu memiliki 100jt money untuk membeli durasi expired group ini`)
+    m.reply(`Berhasil menetapkan hari kedaluarsa untuk ${groupMetadata.subject} selama +1 hari.\n\n-1000000 Money\n${user.money -= 1000000} Total Money\n\nHitung Mundur : ${msToDate(global.db.data.chats[m.chat].expired - now)}`)
+    } else m.reply(`Pastikan kamu memiliki 1jt money untuk membeli durasi expired group ini`)
 }
 handler.help = ['bayarexpired']
 handler.tags = ['xp']
 handler.command = /^(bayarexpired)$/i
-handler.limit = true
+
 handler.group = true
 module.exports = handler
 

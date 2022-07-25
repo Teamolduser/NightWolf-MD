@@ -48,7 +48,7 @@ let dapat = (Math.floor(Math.random() * 5000))
 handler.help = ['berdagang *@tag*']
 handler.tags = ['rpg']
 handler.command = /^berdagang$/
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

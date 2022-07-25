@@ -30,6 +30,5 @@ await conn.sendFile(m.chat, gambar, '', otaku, m)
 handler.help = ['otakudesu'].map(v => v + ' <Apa>')
 handler.tags = ['internet']
 handler.command = /^(otakudesu)$/i
-handler.limit = true
 
 module.exports = handler

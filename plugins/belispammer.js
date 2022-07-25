@@ -11,6 +11,6 @@ let handler = (m, { conn, usedPrefix, command, text }) => {
 // handler.help = ['belispammer']
 // handler.tags = ['xp']
 handler.command = /^(belispammer)$/i
-handler.limit = true
+
 handler.group = false
 module.exports = handler

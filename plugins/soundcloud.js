@@ -30,7 +30,7 @@ handler.help = ['soundcloud']
 handler.tags = ['downloader']
 
 handler.command = /^soundcloud$/i
-handler.limit = true
+
 handler.premium = false
 
 module.exports = handler

@@ -64,7 +64,7 @@ if (!args[0]) throw 'Contoh penggunaan:\n\n*.emojimix 🤨&😣*'
 handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix)$/i
-handler.limit = true 
+
 module.exports = handler
 
 

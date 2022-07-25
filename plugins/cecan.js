@@ -8,6 +8,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['cecan']
 handler.tags = ['internet']
 handler.command = /^(cecan)$/i
-handler.limit = true
 
 module.exports = handler

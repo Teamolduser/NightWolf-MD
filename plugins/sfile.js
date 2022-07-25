@@ -15,7 +15,7 @@ conn.sendMedia(m.chat, json.result.url, 0, {fileName: `${json.result.title}`})
 handler.help = ['sfile']
 handler.tags = ['downloader']
 handler.command = /^(sfile)$/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

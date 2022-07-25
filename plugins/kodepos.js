@@ -32,6 +32,5 @@ m.reply(capt)
 handler.help = ['kodepos <kota>']
 handler.tags = ['internet']
 handler.command = /^kodepos$/i
-handler.limit = true
 
 module.exports = handler

@@ -15,7 +15,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['delttt']
 handler.tags = ['game']
 handler.command = /^(delttt|delsesittt|delsesitt)$/i
-handler.limit = true
 
 handler.register = false
 handler.fail = null

@@ -19,7 +19,7 @@ handler.help = ['ceksn']
 handler.tags = ['main']
 handler.command = /^(ceksn)$/i
 handler.register = true
-handler.limit = true
+
 module.exports = handler
 
 function clockString(ms) {

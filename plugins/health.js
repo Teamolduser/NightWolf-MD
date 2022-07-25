@@ -19,7 +19,6 @@ Successful use of *${count}* 🧃Potion(s)
 handler.help = ['heal']
 handler.tags = ['rpg']
 handler.command = /^(heal)$/i
-handler.limit = true
 
 module.exports = handler
 

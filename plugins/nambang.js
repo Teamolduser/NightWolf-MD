@@ -32,7 +32,7 @@ handler.command = /^(nambang)/i
 handler.group = true
 
 handler.fail = null
-handler.limit = true
+
 handler.exp = 0
 handler.money = 0
 

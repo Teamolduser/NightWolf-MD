@@ -29,7 +29,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     return number.replace(/\s/g,'').replace(/([@+-])/g,'')
   }
   
-  if (!text) return conn.reply(m.chat, `*❏ GET NUMBER*\n\n• ${usedPrefix}unprem number|days\n*Example:* ${usedPrefix}unprem 6289654360447|99\n\n• ${usedPrefix}unprem @tag|days\n*Example:* ${usedPrefix}unprem @6289654360447|99`, m)
+  if (!text) return conn.reply(m.chat, `*❏ GET NUMBER*\n\n• ${usedPrefix}unprem number\n*Example:* ${usedPrefix}unprem \n Contoh: 6285640104318\n\n• ${usedPrefix}unprem @tag\n*Example:* ${usedPrefix}unprem @6285640104318`, m)
   text = no(text) + "@s.whatsapp.net"
   global.db.data.users[text].premium = false
   global.db.data.users[text].premiumDate = 0

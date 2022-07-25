@@ -14,31 +14,31 @@ let handler = async (m, { conn, args, text, usedPrefix }) => {
   let indomart = await fetchJson(`https://account-api-v1.klikindomaret.com/api/PreRegistration/SendOTPSMS?NoHP=0${args[0]}`)
   let redbus = await fetchJson(`https://m.redbus.id/api/getOtp?number=${args[0]}&cc=62&whatsAppOpted=true&disableOtpFlow=undefined`)
   let spamotp = await fetchJson(`https://app-spamotp.herokuapp.com/api/spamsms?phone=${args[0]}`)
-  let spsms = `_*Aine From Jagreward*_
+  let spsms = `_*NightWolf From Jagreward*_
 _Berhasil menelpon anda!_
 
-_*Aine From Indomaret*_
+_*NightWolf From Indomaret*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From MATAHARI*_
+_*NightWolf From MATAHARI*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From OLX*_
+_*NightWolf From OLX*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From Fave*_
+_*NightWolf From Fave*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From PAYFAZZ*_
+_*NightWolf From PAYFAZZ*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From BukuWarung*_
+_*NightWolf From BukuWarung*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From DANACINTA*_
+_*NightWolf From DANACINTA*_
 _Berhasil mengirim pesan SMS OTP ke anda!_
 
-_*Aine From RedBus*_
+_*NightWolf From RedBus*_
 _Berhasil mengirim pesan VIA WHATSAPP/SMS OTP ke anda!_
 
 Delay dalam waktu sekitar 24 jam..`

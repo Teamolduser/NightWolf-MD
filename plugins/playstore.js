@@ -19,7 +19,6 @@ var b = a.map((v, i) => `*${i + 1}. 「 PLAY STORE 」*\n📜 Title: _${v.name}_
 handler.help = ['playstore']
 handler.tags = ['internet']
 handler.command = /^(playstore)$/i
-handler.limit = true
 handler.group = false
 
 module.exports = handler

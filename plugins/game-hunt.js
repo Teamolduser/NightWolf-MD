@@ -107,7 +107,7 @@ Berkurang -${healing} Health, Tersisa ${player.health} Health
 handler.help = ['hunter']
 handler.tags = ['game']
 handler.command = /^hunter/i
-handler.limit = true
+
 handler.group = true
 handler.fail = null
 

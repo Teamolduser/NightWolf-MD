@@ -215,6 +215,5 @@ ${usedPrefix}semoji whatsapp 😎
 handler.help = ['semoji']
 handler.tags = ['sticker']
 handler.command = /^((s(tic?ker)?)?emo(ji)?)$/i
-handler.limit = true
 
 module.exports = handler

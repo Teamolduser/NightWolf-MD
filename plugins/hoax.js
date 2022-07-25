@@ -18,7 +18,6 @@ conn.sendButton(m.chat, txt, wm, thumbnail, [['Hoax', '.hoax']], m, {jpegThumbna
 handler.help = ['hoax']
 handler.tags = ['berita']
 handler.command = /^hoax$/i
-handler.limit = true
 
 module.exports = handler
 

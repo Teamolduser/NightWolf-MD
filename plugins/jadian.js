@@ -37,7 +37,7 @@ function handler(m, { groupMetadata }) {
 handler.help = ['jadian']
 handler.tags = ['fun']
 handler.command = ['jadian']
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

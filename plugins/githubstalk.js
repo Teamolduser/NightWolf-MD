@@ -22,7 +22,6 @@ let handler = async(m, { conn, text }) => {
 handler.help = ['githubstalk']
 handler.tags = ['internet']
 handler.command = /^(ghstalk|githubstalk)$/i
-handler.limit = true
 
 module.exports = handler
 

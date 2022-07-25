@@ -12,7 +12,6 @@ handler.help = ['rate']
 handler.tags = ['fun']
 
 handler.command = /^rate$/i
-handler.limit = true
 
 handler.fail = null
 

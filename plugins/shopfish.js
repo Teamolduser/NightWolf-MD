@@ -274,7 +274,7 @@ handler.help = ['shopfish <sell|buy> <args>']
 handler.tags = ['rpg']
     
 handler.command = /^(shopfish)$/i
-handler.limit = true
+
 handler.group = true
 module.exports = handler
 

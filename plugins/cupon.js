@@ -8,6 +8,5 @@ let handler = async (m) => {
 handler.help = ['cupon [@user]']
 handler.tags = ['xp']
 handler.command = /^(cupon)$/i
-handler.limit = true
 
 module.exports = handler

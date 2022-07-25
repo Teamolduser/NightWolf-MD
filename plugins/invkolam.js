@@ -42,7 +42,7 @@ conn.reply(m.chat, aineh, m)
 handler.help = ['kolam']
 handler.tags = ['rpg']
 handler.command = /^(kolam)$/i
-handler.limit = true
+
 handler.group = true
 module.exports = handler
 

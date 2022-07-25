@@ -14,6 +14,6 @@ handler.help = ['del', 'delete']
 handler.tags = ['tools']
 
 handler.command = /^del(ete)?$/i
-handler.limit = true
+handler.premium = true
 
 module.exports = handler
