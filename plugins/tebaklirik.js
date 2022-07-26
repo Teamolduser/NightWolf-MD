@@ -34,7 +34,7 @@ TiketCoin: 1 Tiketcoin
 handler.help = ['tebaklirik']
 handler.tags = ['game']
 handler.command = /^tebaklirik/i
-handler.limit = true
+
 handler.group = true
 
 module.exports = handler

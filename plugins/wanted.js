@@ -20,7 +20,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['wanted']
 handler.tags = ['sticker']
 handler.command = /^wanted$/i
-handler.limit = true
+
 handler.fail = null
 
 module.exports = handler

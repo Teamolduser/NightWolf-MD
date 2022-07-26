@@ -63,6 +63,5 @@ wikipedia(`${text}`).then(res => {
 handler.help = ['wikipedia'].map(v => v + ' <text>')
 handler.tags = ['internet']
 handler.command = /^(wiki|wikipedia)$/i
-handler.limit = true 
 
 module.exports = handler

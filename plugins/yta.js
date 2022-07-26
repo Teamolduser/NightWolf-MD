@@ -44,7 +44,7 @@ module.exports = handler*/
 
 
 
-let limit = 30
+let limit = 1
 const { servers, yta } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
   if (!args || !args[0]) throw 'Uhm... urlnya mana?'
@@ -78,7 +78,6 @@ handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 0
-handler.limit = true
 
 module.exports = handler
 

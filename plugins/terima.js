@@ -52,6 +52,6 @@ handler.help = ['terima *@tag*']
 handler.tags = ['jadian']
 handler.command = /^(terima)$/i
 handler.group = true
-handler.limit = true
+
 handler.fail = null
 module.exports = handler

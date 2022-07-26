@@ -83,7 +83,7 @@ handler.tags = ['rpg']
 handler.command = /^(transfer)$/i
 handler.owner = false
 handler.mods = false
-handler.limit = true
+
 handler.group = true
 handler.private = false
 

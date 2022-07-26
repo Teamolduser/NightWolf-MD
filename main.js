@@ -131,7 +131,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`62895330379186@s.whatsapp.net`, {text: 'Successfully connected by Aine' }) //made by Muhammad Ridwan Reynaldy 
+  if (update.receivedPendingNotifications) conn.sendMessage(`6285640104318@s.whatsapp.net`, {text: 'Successfully connected BOT' }) //made by Muhammad Ridwan Reynaldy 
 }
 
 

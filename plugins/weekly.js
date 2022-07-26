@@ -20,7 +20,7 @@ let handler = async (m, { isPrems }) => {
 handler.help = ['weekly']
 handler.tags = ['rpgabsen']
 handler.command = /^(weekly)$/i
-handler.limit = true
+
 handler.fail = null
 
 module.exports = handler

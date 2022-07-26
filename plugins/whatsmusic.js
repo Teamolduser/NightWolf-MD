@@ -33,6 +33,5 @@ let handler = async (m) => {
 handler.help = ['whatsmusic <caption/reply>']
 handler.tags = ['tools']
 handler.command = /^whatsmusic$/i
-handler.limit = true
 
 module.exports = handler

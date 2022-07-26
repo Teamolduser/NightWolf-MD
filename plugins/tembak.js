@@ -155,6 +155,6 @@ handler.help = ["tembak"].map((v) => v + " *@tag*");
 handler.tags = ["jadian"];
 handler.command = /^(tembak)$/i;
 handler.group = true;
-handler.limit = true;
+
 handler.fail = null;
 module.exports = handler;

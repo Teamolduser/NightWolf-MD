@@ -36,6 +36,6 @@ Tiketcoin: 1 Tiketcoin
 handler.help = ['tebaklagu']
 handler.tags = ['game']
 handler.command = /^tebaklagu$/i
-handler.limit = true
+
 handler.group = true
 module.exports = handler

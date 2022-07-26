@@ -21,7 +21,6 @@ conn.reply(m.chat, 'Wait is in process..', m)
 handler.help = ['triggered']
 handler.tags = ['sticker']
 handler.command = /^trigger|triggered|tgr$/i
-handler.limit = true
 
 handler.fail = null
 

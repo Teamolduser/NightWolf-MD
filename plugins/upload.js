@@ -17,6 +17,5 @@ ${isTele ? '(No Expiry Date)' : '(Unknown)'}`)
 handler.help = ['upload (caption|reply media)']
 handler.tags = ['tools']
 handler.command = /^upload$/i
-handler.limit = true
 
 module.exports = handler

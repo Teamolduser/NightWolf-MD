@@ -13,6 +13,6 @@ handler.tags = ['downloader']
 handler.command = /^z(ippydl|ippyshare)$/i
 
 handler.limit = true
-handler.premium = true
+handler.premium = false
 
 module.exports = handler

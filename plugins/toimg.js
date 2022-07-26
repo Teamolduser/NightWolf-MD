@@ -15,6 +15,5 @@ await m.reply('*「 WAIT 」 SEDANG PROSES...*')
 handler.help = ['toimg (reply)']
 handler.tags = ['maker']
 handler.command = /^toimg$/i
-handler.limit = true
 
 module.exports = handler
