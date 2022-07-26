@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, args }) => {
-  let pp = `https://telegra.ph/file/6a9145ce608433c69d87d.jpg`
+  let pp = `https://telegra.ph/file/b1631f1ae3d08f9692a1a.jpg`
   
   let teks = `*Syarat & Ketentuan ${await conn.user.name}*
 
