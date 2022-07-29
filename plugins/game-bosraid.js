@@ -80,14 +80,14 @@ Makanan Pet : *+${makananz}*
                                                        conn.reply(m.chat, srcz, m)
                                                  }, timezx)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, `Pet aine telah berkurang *HP -${bospetz}*\nWaktunya berevolusi.. ☯️`, m)
+                                                       conn.reply(m.chat, `Pet Boss telah berkurang *HP -${bospetz}*\nWaktunya berevolusi.. ☯️`, m)
                                                  }, timecx)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet Aine*\nDarah pet aine saat ini *+100*', m)
+                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet*\nDarah pet Boss saat ini *+100*', m)
                                                  }, timexx)
-                                             } else conn.reply(m.chat, 'Minimal rubah kamu *Level 5* untuk bertarung melawan *Pet Aine*', m)
-                                          } else conn.reply(m.chat, 'Minimal kuda kamu *Level 5* untuk bertarung melawan *Pet Aine*', m)
-                                       } else conn.reply(m.chat, 'Minimal kucing kamu *Level 5* untuk bertarung melawan *Pet Aine*', m)
+                                             } else conn.reply(m.chat, 'Minimal rubah kamu *Level 5* untuk bertarung melawan *Pet Boss*', m)
+                                          } else conn.reply(m.chat, 'Minimal kuda kamu *Level 5* untuk bertarung melawan *Pet Boss*', m)
+                                       } else conn.reply(m.chat, 'Minimal kucing kamu *Level 5* untuk bertarung melawan *Pet Boss*', m)
                                     } else m.reply(`Kamu sudah melawan _Bos Raid Easy_ Mohon untuk menunggu *${waktuez}* lagi`)
                            break
                            case 'normal':
@@ -102,9 +102,9 @@ Makanan Pet : *+${makananz}*
                                           if (global.db.data.users[m.sender].griffin > 6) {
                                           if (global.db.data.users[m.sender].phonix > 6) {
                                           if (global.db.data.users[m.sender].serigala > 6) {
-                                          let _normalz = `${pickRandom(['1','2','3','4'])}`.trim()
-                                          let _normalx = `${pickRandom(['1','2','3','4'])}`.trim()
-                                          let _normalc = `${pickRandom(['1','2','3','4'])}`.trim()
+                                          let _normalz = `${pickRandom(['1','2','3'])}`.trim()
+                                          let _normalx = `${pickRandom(['1','2','3'])}`.trim()
+                                          let _normalc = `${pickRandom(['1','2','3'])}`.trim()
                                           let _makananx = `${Math.floor(Math.random() * 40)}`.trim()
                                           let _makanangriffinx = `${Math.floor(Math.random() * 20)}`.trim()
                                           let _makananphonixx = `${Math.floor(Math.random() * 20)}`.trim()
@@ -142,7 +142,7 @@ Makanan Pet : *+${makananz}*
                                                   global.db.data.users[m.sender].lastnormal = new Date * 1
                                          let srcx = `
 Berhasil melawan Bosraid..
-Bos pet aine telah dikalahkan..
+Bos pet telah dikalahkan..
 
 Pet kamu telah turun level..!! 😲
 Griffin Level : *-${normalz}*
@@ -165,15 +165,15 @@ Makanan Phonix : *+${makananphonixx}*
                                                        conn.reply(m.chat, srcx, m)
                                                  }, timezz)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, `Pet aine telah berkurang *HP -${bospetx}*\nWaktunya berevolusi.. ☯️`, m)
+                                                       conn.reply(m.chat, `Pet Boss telah berkurang *HP -${bospetx}*\nWaktunya berevolusi.. ☯️`, m)
                                                  }, timecz)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet Aine*\nDarah pet aine saat ini *+100*', m)
+                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet*\nDarah pet Boss saat ini *+100*', m)
                                                  }, timexz)
-                                             } else conn.reply(m.chat, 'Minimal serigala kamu *Level 7* untuk bertarung melawan *Pet Aine*', m)
-                                          } else conn.reply(m.chat, 'Minimal phonix kamu *Level 7* untuk bertarung melawan *Pet Aine*', m)
-                                       } else conn.reply(m.chat, 'Minimal griffin kamu *Level 7* untuk bertarung melawan *Pet Aine*', m)
-                                    } else m.reply(`Kamu sudah melawan _Bos Raid Easy_ Mohon untuk menunggu *${waktuex}* lagi`)
+                                             } else conn.reply(m.chat, 'Minimal serigala kamu *Level 7* untuk bertarung melawan *Pet Boss*', m)
+                                          } else conn.reply(m.chat, 'Minimal phonix kamu *Level 7* untuk bertarung melawan *Pet Boss*', m)
+                                       } else conn.reply(m.chat, 'Minimal griffin kamu *Level 7* untuk bertarung melawan *Pet Boss*', m)
+                                    } else m.reply(`Kamu sudah melawan _Bos Raid Normal_ Mohon untuk menunggu *${waktuex}* lagi`)
                            break
                            case 'hard':
                                           let nagac = global.db.data.users[m.sender].naga
@@ -187,9 +187,9 @@ Makanan Phonix : *+${makananphonixx}*
                                           if (global.db.data.users[m.sender].naga > 9) {
                                           if (global.db.data.users[m.sender].kyubi > 9) {
                                           if (global.db.data.users[m.sender].centaur > 9) {
-                                          let _hardz = `${pickRandom(['4','5','6'])}`.trim()
-                                          let _hardx = `${pickRandom(['4','5','6'])}`.trim()
-                                          let _hardc = `${pickRandom(['4','5','6'])}`.trim()
+                                          let _hardz = `${pickRandom(['3','4','5'])}`.trim()
+                                          let _hardx = `${pickRandom(['3','4','5'])}`.trim()
+                                          let _hardc = `${pickRandom(['3','4','5'])}`.trim()
                                           let _makanannagac = `${Math.floor(Math.random() * 60)}`.trim()
                                           let _makanankyubic = `${Math.floor(Math.random() * 60)}`.trim()
                                           let _makanancentaurc = `${Math.floor(Math.random() * 60)}`.trim()
@@ -227,7 +227,7 @@ Makanan Phonix : *+${makananphonixx}*
                                                   global.db.data.users[m.sender].lasthard = new Date * 1
                                          let srcc = `
 Berhasil melawan Bosraid..
-Bos pet aine telah dikalahkan..
+Bos pet telah dikalahkan..
 
 Pet kamu telah turun level..!! 😲
 Naga Level : *-${hardz}*
@@ -250,15 +250,15 @@ Makanan Centaur : *+${makanancentaurc}*
                                                        conn.reply(m.chat, srcc, m)
                                                  }, timezc)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, `Pet aine telah berkurang *HP -${bospetc}*\nWaktunya berevolusi.. ☯️`, m)
+                                                       conn.reply(m.chat, `Pet Boss telah berkurang *HP -${bospetc}*\nWaktunya berevolusi.. ☯️`, m)
                                                  }, timexc)
                                                  setTimeout(() => {
-                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet Aine*\nDarah pet aine saat ini *+100*', m)
+                                                       conn.reply(m.chat, 'Persiapan untuk melawan *Bos Pet*\nDarah pet Boss saat ini *+100*', m)
                                                  }, timecc)
-                                             } else conn.reply(m.chat, 'Minimal centaur kamu *Level 10* untuk bertarung melawan *Pet Aine*', m)
-                                          } else conn.reply(m.chat, 'Minimal kyubi kamu *Level 10* untuk bertarung melawan *Pet Aine*', m)
-                                       } else conn.reply(m.chat, 'Minimal naga kamu *Level 10* untuk bertarung melawan *Pet Aine*', m)
-                                    } else m.reply(`Kamu sudah melawan _Bos Raid Easy_ Mohon untuk menunggu *${waktuec}* lagi`)
+                                             } else conn.reply(m.chat, 'Minimal centaur kamu *Level 10* untuk bertarung melawan *Pet Boss*', m)
+                                          } else conn.reply(m.chat, 'Minimal kyubi kamu *Level 10* untuk bertarung melawan *Pet Boss*', m)
+                                       } else conn.reply(m.chat, 'Minimal naga kamu *Level 10* untuk bertarung melawan *Pet Boss*', m)
+                                    } else m.reply(`Kamu sudah melawan _Bos Raid Hard_ Mohon untuk menunggu *${waktuec}* lagi`)
                            break 
                               default:
                                   return conn.reply(m.chat, `${usedPrefix + command} [easy | normal | hard]\nContoh penggunaan: *${usedPrefix + command} easy*`, m)
@@ -266,7 +266,7 @@ Makanan Centaur : *+${makanancentaurc}*
                       }
 
 handler.help = ['bosraid <mode>']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(bosraid)$/i
 
 handler.group = true

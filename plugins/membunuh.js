@@ -3,6 +3,11 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 let dapat = (Math.floor(Math.random() * 100000))
 let healtu = (Math.floor(Math.random() * 100))
+let pajak = 1
+let randomaku = `${Math.floor(Math.random() * 100)}`.trim()
+let randomkamu = `${Math.floor(Math.random() * 75)}`.trim()
+let Aku = (randomaku * 1)
+let Kamu = (randomkamu * 1)
 let nomors = m.sender
   let who
   if (m.isGroup) who = m.mentionedJid[0]
@@ -16,12 +21,26 @@ let nomors = m.sender
   if (new Date - global.db.data.users[m.sender].lastbunuhi > 3600000){
    if (10 > users[who].health) throw 'Target sudah tidak memiliki health'
    if (100 > users[who].money) throw 'Target tidak memiliki apapun :('
-  users[who].health -= healtu * 1
+   if (Aku < Kamu){
+    users[who].health -= healtu * 1
+    users[who].money -= dapat * 1
+    users[m.sender].money += dapat * 1
+    global.db.data.users[m.sender].lastbunuhi = new Date * 1
+    conn.reply(m.chat, `Target berhasil di bunuh dan kamu mengambil money target sebesar\n${dapat} Money\nDarah target berkurang -${healtu} Health`, m)
+    }else if (Aku > Kamu){
+    users[m.sender].level -= pajak * 1 
+    global.db.data.users[m.sender].lastrob = new Date * 1
+    m.reply(`Kamu dikalahkan oleh korban dan kamu turun -${pajak} Level`)
+    }else {
+    m.reply(`Anda gagal membunuh dan korban lari , tunggu ${timers} untuk membunuh lagi`)
+    }
+  /*users[who].health -= healtu * 1
   users[who].money -= dapat * 1
   users[m.sender].money += dapat * 1
   global.db.data.users[m.sender].lastbunuhi = new Date * 1
   m.reply(`Target berhasil di bunuh dan kamu mengambil money target sebesar\n${dapat} Money\nDarah target berkurang -${healtu} Healt`)
-}else conn.reply(m.chat, `Anda sudah membunuh orang dan berhasil sembunyi , tunggu ${timers} untuk membunuhnya lagi`, m)
+  */
+}else conn.reply(m.chat, `Anda sudah membunuh orang, tunggu ${timers} untuk membunuhnya lagi`, m)
 }
 
 handler.help = ['membunuh *@tag*']

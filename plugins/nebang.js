@@ -5,9 +5,9 @@ const timeout = 3600000
 	                                 let time = global.db.data.users[m.sender].lastnebang + 3600000
                                      if (aqua == 0) return m.reply(`*Pastikan kamu memiliki semua aqua*\nKetik :\n${usedPrefix}shop buy aqua 5`)
                                      if (new Date - global.db.data.users[m.sender].lastnebang< 3600000) throw `Anda sudah menebang\nMohon tunggu hasil tebangan mu\nTunggu selama ${msToTime(time - new Date())} lagi`
-                                     if (global.db.data.users[m.sender].aqua > 9) {
-                                     let kayus = `${Math.floor(Math.random() * 1000)}`.trim()
-                                     let aquas = `${Math.floor(Math.random() * 10)}`.trim()
+                                     if (global.db.data.users[m.sender].aqua > 4) {
+                                     let kayus = `${Math.floor(Math.random() * 100)}`.trim()
+                                     let aquas = `${Math.floor(Math.random() * 5)}`.trim()
                                      global.db.data.users[m.sender].kayu += kayus * 1
                                      global.db.data.users[m.sender].tiketcoin += 1
                                      global.db.data.users[m.sender].aqua  -= aquas * 1
@@ -16,7 +16,7 @@ const timeout = 3600000
                                      setTimeout(() => {
 					                      conn.reply(m.chat, `Waktunya nebang pohon lagi kak 😅`, m)
 					                  }, timeout)
-                              } else m.reply(`Pastikan aqua kamu *10* untuk bisa nebang, Karena menguras tenaga`)
+                              } else m.reply(`Pastikan aqua kamu *5* untuk bisa nebang, Karena menguras tenaga`)
                          }
 handler.help = ['nebang']
 handler.tags = ['rpg']

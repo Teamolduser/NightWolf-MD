@@ -13,18 +13,18 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                                   if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
                                   if (global.db.data.users[m.sender].pancingan > 1) {
                                   if (global.db.data.users[m.sender].umpan > 99) {
-                                  let randomaku1 = `${Math.floor(Math.random() * 10)}`
+                                  let randomaku1 = `${Math.floor(Math.random() * 5)}`
                                   let randomaku2 = `${Math.floor(Math.random() * 10)}`
                                   let randomaku3 = `${Math.floor(Math.random() * 10)}`
                                   let randomaku4 = `${Math.floor(Math.random() * 10)}`
                                   let randomaku5 = `${Math.floor(Math.random() * 10)}`
                                   let randomaku6 = `${Math.floor(Math.random() * 10)}`
-                                  let randomaku7 = `${Math.floor(Math.random() * 10)}`
+                                  let randomaku7 = `${Math.floor(Math.random() * 5)}`
                                   let randomaku8 = `${Math.floor(Math.random() * 10)}`
-                                  let randomaku9 = `${Math.floor(Math.random() * 10)}`
+                                  let randomaku9 = `${Math.floor(Math.random() * 5)}`
                                   let randomaku10 = `${Math.floor(Math.random() * 10)}`
                                   let randomaku11 = `${Math.floor(Math.random() * 10)}`
-                                  let randomaku12 = `${Math.floor(Math.random() * 10)}`
+                                  let randomaku12 = `${Math.floor(Math.random() * 5)}`
                                   let randomaku13 = `${Math.floor(Math.random() * 50)}`
 
                                   let rbrb1 = (randomaku1 * 1)
@@ -105,18 +105,18 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                                   if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
                                   if (global.db.data.users[m.sender].pancingan > 2) {
                                   if (global.db.data.users[m.sender].umpan > 149) {
-                                  let randomakud1 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud2 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud3 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud4 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud5 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud6 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud7 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud8 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud9 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud10 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud11 = `${Math.floor(Math.random() * 50)}`
-                                  let randomakud12 = `${Math.floor(Math.random() * 50)}`
+                                  let randomakud1 = `${Math.floor(Math.random() * 20)}`
+                                  let randomakud2 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud3 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud4 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud5 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud6 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud7 = `${Math.floor(Math.random() * 20)}`
+                                  let randomakud8 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud9 = `${Math.floor(Math.random() * 20)}`
+                                  let randomakud10 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud11 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakud12 = `${Math.floor(Math.random() * 20)}`
                                   let randomakud13 = `${Math.floor(Math.random() * 100)}`
 
                                   let rbrbs1 = (randomakud1 * 1)
@@ -197,18 +197,18 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                                   if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
                                   if (global.db.data.users[m.sender].pancingan > 3) {
                                   if (global.db.data.users[m.sender].umpan > 199) {
-                                  let randomakur1 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur2 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur3 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur4 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur5 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur6 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur7 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur8 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur9 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur10 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur11 = `${Math.floor(Math.random() * 100)}`
-                                  let randomakur12 = `${Math.floor(Math.random() * 100)}`
+                                  let randomakur1 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakur2 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur3 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur4 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur5 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur6 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur7 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakur8 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur9 = `${Math.floor(Math.random() * 40)}`
+                                  let randomakur10 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur11 = `${Math.floor(Math.random() * 80)}`
+                                  let randomakur12 = `${Math.floor(Math.random() * 40)}`
                                   let randomakur13 = `${Math.floor(Math.random() * 150)}`
 
                                   let rbrbsh1 = (randomakur1 * 1)
@@ -289,18 +289,18 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                                   if (new Date - global.db.data.users[m.sender].lastmancingeasy > 28800000) {
                                   if (global.db.data.users[m.sender].pancingan > 4) {
                                   if (global.db.data.users[m.sender].umpan > 249) {
-                                  let randomakue1 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue2 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue3 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue4 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue5 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue6 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue7 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue8 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue9 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue10 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue11 = `${Math.floor(Math.random() * 500)}`
-                                  let randomakue12 = `${Math.floor(Math.random() * 500)}`
+                                  let randomakue1 = `${Math.floor(Math.random() * 160)}`
+                                  let randomakue2 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue3 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue4 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue5 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue6 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue7 = `${Math.floor(Math.random() * 160)}`
+                                  let randomakue8 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue9 = `${Math.floor(Math.random() * 160)}`
+                                  let randomakue10 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue11 = `${Math.floor(Math.random() * 320)}`
+                                  let randomakue12 = `${Math.floor(Math.random() * 160)}`
                                   let randomakue13 = `${Math.floor(Math.random() * 200)}`
 
                                   let rbrbshe1 = (randomakue1 * 1)
@@ -379,7 +379,7 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
 }
 
 handler.help = ['pancing <type>']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(pancing)$/i
 handler.register = true
 

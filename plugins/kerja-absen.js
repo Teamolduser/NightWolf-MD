@@ -33,7 +33,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjasatu += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeq = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeq} Money\n+${expqeq} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeq} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeq = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeq} Money\n+${expqeq} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeq} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeq, m)
                                                   
                                                   } else m.reply(`Aqua tidak cukup, minimal aqua 5 untuk bisa bekerja`)
@@ -71,7 +71,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjadua += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqew = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqew} Money\n+${expqew} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqew} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqew = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqew} Money\n+${expqew} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqew} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqew, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 1 coba absen terlebih dahulu`)
@@ -110,7 +110,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjatiga += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqee = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqee} Money\n+${expqee} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqee} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqee = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqee} Money\n+${expqee} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqee} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqee, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 2 coba absen terlebih dahulu`)
@@ -149,7 +149,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaempat += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqer = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqer} Money\n+${expqer} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqer} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqer = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqer} Money\n+${expqer} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqer} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqer, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 3 coba absen terlebih dahulu`)
@@ -188,7 +188,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjalima += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqet = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqet} Money\n+${expqet} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqet} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqet = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqet} Money\n+${expqet} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqet} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqet, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 4 coba absen terlebih dahulu`)
@@ -227,7 +227,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaenam += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqey = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqey} Money\n+${expqey} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqey} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqey = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqey} Money\n+${expqey} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqey} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqey, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 5 coba absen terlebih dahulu`)
@@ -266,7 +266,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjatujuh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeu} Money\n+${expqeu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeu} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeu} Money\n+${expqeu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeu, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 6 coba absen terlebih dahulu`)
@@ -305,7 +305,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjadelapan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqei = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqei} Money\n+${expqei} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqei} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqei = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqei} Money\n+${expqei} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqei} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqei, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 7 coba absen terlebih dahulu`)
@@ -344,7 +344,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjasembilan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeo = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeo} Money\n+${expqeo} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeo} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeo = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeo} Money\n+${expqeo} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeo} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeo, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 8 coba absen terlebih dahulu`)
@@ -383,7 +383,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjasepuluh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqep = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqep} Money\n+${expqep} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqep} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqep = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqep} Money\n+${expqep} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqep} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqep, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 9 coba absen terlebih dahulu`)
@@ -422,7 +422,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjasebelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqea = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqea} Money\n+${expqea} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqea} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqea = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqea} Money\n+${expqea} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqea} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqea, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 10 coba absen terlebih dahulu`)
@@ -461,7 +461,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqes = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqes} Money\n+${expqes} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqes} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqes = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqes} Money\n+${expqes} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqes} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqes, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 11 coba absen terlebih dahulu`)
@@ -500,7 +500,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjatigabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqed = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqed} Money\n+${expqed} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqed} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqed = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqed} Money\n+${expqed} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqed} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqed, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 12 coba absen terlebih dahulu`)
@@ -539,7 +539,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaempatbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqef = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqef} Money\n+${expqef} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqef} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqef = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqef} Money\n+${expqef} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqef} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqef, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 13 coba absen terlebih dahulu`)
@@ -578,7 +578,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjalimabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeg = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeg} Money\n+${expqeg} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeg} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeg = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeg} Money\n+${expqeg} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeg} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeg, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 14 coba absen terlebih dahulu`)
@@ -617,7 +617,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaenambelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeh} Money\n+${expqeh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeh} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeh} Money\n+${expqeh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeh, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 15 coba absen terlebih dahulu`)
@@ -656,7 +656,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjatujuhbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqej = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqej} Money\n+${expqej} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqej} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqej = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqej} Money\n+${expqej} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqej} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqej, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 16 coba absen terlebih dahulu`)
@@ -695,7 +695,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjadelapanbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqek = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqek} Money\n+${expqek} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqek} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqek = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqek} Money\n+${expqek} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqek} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqek, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 17 coba absen terlebih dahulu`)
@@ -734,7 +734,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjasembilanbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqel = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqel} Money\n+${expqel} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqel} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqel = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqel} Money\n+${expqel} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqel} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqel, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 18 coba absen terlebih dahulu`)
@@ -773,7 +773,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduapuluh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqefh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqefh} Money\n+${expqefh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqefh} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqefh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqefh} Money\n+${expqefh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqefh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqefh, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 19 coba absen terlebih dahulu`)
@@ -812,7 +812,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduasatu += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqez = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqez} Money\n+${expqez} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqez} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqez = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqez} Money\n+${expqez} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqez} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqez, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 20 coba absen terlebih dahulu`)
@@ -851,7 +851,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduadua += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqex = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqex} Money\n+${expqex} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqex} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqex = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqex} Money\n+${expqex} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqex} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqex, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 21 coba absen terlebih dahulu`)
@@ -890,7 +890,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduatiga += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqec = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqec} Money\n+${expqec} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqec} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqec = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqec} Money\n+${expqec} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqec} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqec, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 22 coba absen terlebih dahulu`)
@@ -929,7 +929,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduaempat += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqev = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqev} Money\n+${expqev} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqev} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqev = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqev} Money\n+${expqev} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqev} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqev, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 23 coba absen terlebih dahulu`)
@@ -968,7 +968,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjadualima+= 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeb = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeb} Money\n+${expqeb} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeb} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqeb = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeb} Money\n+${expqeb} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeb} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeb, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 24 coba absen terlebih dahulu`)
@@ -1007,7 +1007,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduaenam += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqen = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqen} Money\n+${expqen} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqen} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqen = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqen} Money\n+${expqen} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqen} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqen, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 25 coba absen terlebih dahulu`)
@@ -1046,7 +1046,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduatujuh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqem = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqem} Money\n+${expqem} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqem} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqem = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqem} Money\n+${expqem} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqem} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqem, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 26 coba absen terlebih dahulu`)
@@ -1085,7 +1085,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduadelapan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqse = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqse} Money\n+${expqse} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqse} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqse = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqse} Money\n+${expqse} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqse} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqse, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 27 coba absen terlebih dahulu`)
@@ -1124,7 +1124,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduasembilan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqsu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqsu} Money\n+${expqsu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqsu} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqsu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqsu} Money\n+${expqsu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqsu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqsu, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 28 coba absen terlebih dahulu`)
@@ -1163,7 +1163,7 @@ let type = (args[0] || '').toLowerCase()
                                                   global.db.data.users[m.sender].kerjaduasembilan -= 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqso = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqso} Money\n+${expqso} Exp\n+2 Cupon\n+5 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqso} health\n-5 Aqua\n\nJangan lupa untuk absen besok iya kak :)`.trim()
+                                                  let chatqso = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqso} Money\n+${expqso} Exp\n+2 Cupon\n+5 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqso} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqso, m)
                                                   
                                                   } else m.reply(`Kamu tidak absen hari ke 29 coba absen terlebih dahulu`)

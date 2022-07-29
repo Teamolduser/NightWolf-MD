@@ -14,6 +14,7 @@ let handler = async (m, { conn, args, text, usedPrefix }) => {
   let indomart = await fetchJson(`https://account-api-v1.klikindomaret.com/api/PreRegistration/SendOTPSMS?NoHP=0${args[0]}`)
   let redbus = await fetchJson(`https://m.redbus.id/api/getOtp?number=${args[0]}&cc=62&whatsAppOpted=true&disableOtpFlow=undefined`)
   let spamotp = await fetchJson(`https://app-spamotp.herokuapp.com/api/spamsms?phone=${args[0]}`)
+  let Kode = {indomart , redbus, spamotp}
   let spsms = `_*NightWolf From Jagreward*_
 _Berhasil menelpon anda!_
 
@@ -45,7 +46,7 @@ Delay dalam waktu sekitar 24 jam..`
    let img = 'https://telegra.ph/file/1d23bc78669b4559573f3.jpg'
   // conn.reply(anu)
   // conn.reply(m.chat, `${spsms}`.trim(), m)
-  conn.sendFile(m.chat, img, 'otp.png', `${spsms}`.trim(), m)
+  conn.sendFile(m.chat, img, 'otp.png', `${spsms + Kode}`.trim(), m)
   } else conn.reply(m.chat, `*Delay..*\n*Menunggu sekitar ${timers} Untuk spam..*`, m)
 }
 

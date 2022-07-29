@@ -679,7 +679,7 @@ Sedang berperang di crusade...
 }
 
 handler.help = ['crusade'].map(v => v + ' [nama room]')
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(crusade)$/i
 
 handler.mods = false

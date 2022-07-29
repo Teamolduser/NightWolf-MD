@@ -88,7 +88,7 @@ let handler = async (m, { conn, args }) => {
 				}
 			}
 			
-			global.db.data.users[m.sender].limit -= 2
+			//global.db.data.users[m.sender].limit -= 2
 			global.db.data.users[m.sender].money += reward 
             global.db.data.users[m.sender].spinlast = new Date * 1
 			let last = global.db.data.users[m.sender].money
@@ -100,7 +100,7 @@ let handler = async (m, { conn, args }) => {
 	} else m.reply(`Kamu sudah spin, tidak bisa spin kembali..\nMohon tunggu ${waktutionskh} lagi untuk spin kembali `)
 }
 handler.help = ['spin <jumlah>']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(spin)$/i
 handler.owner = false
 handler.group = true

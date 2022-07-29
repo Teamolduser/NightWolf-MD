@@ -40,7 +40,7 @@ let handler = async (m, { text, usedPrefix }) => {
     }
 }
 handler.help = ['suit']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(suit)$/i
 handler.group = true
 handler.register = true

@@ -36,22 +36,22 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
                    conn.reply(m.chat, `Mohon tunggu kak..\n\n@${name.split`@`[0]}\n@${who1.split`@`[0]}\n@${who2.split`@`[0]}\n@${who3.split`@`[0]}\nSedang berbisnis.. 😅\n\n*Kalian semua meletakkan modal masing-masing -${dapat} 😅*\n@${name.split`@`[0]}\n@${who1.split`@`[0]}\n@${who2.split`@`[0]}\n@${who3.split`@`[0]}`, m)
                    setTimeout(() => {
                             conn.reply(m.chat, `Selamat statistik bisnis kalian meningkat\n\nMasing-masing mendapatkan:\n@${name.split`@`[0]} : *+${users[m.sender].money += untung * 1} Money*\n@${who1.split`@`[0]} : *+${users[who1].money += untung * 1} Money*\n@${who2.split`@`[0]} : *+${users[who2].money += untung * 1} Money*\n@${who3.split`@`[0]} : *+${users[who3].money += untung * 1} Money*`, m)
-                   }, 7200000)
+                   }, 3600000)
                    setTimeout(() => {
                             conn.reply(m.chat, `Waahhh.. statistik bisnis kalian menurun\n\nMasing-masing minus:\n@${name.split`@`[0]} : *-${users[m.sender].money -= rugi * 1} Money*\n@${who1.split`@`[0]} : *-${users[who1].money -= rugi * 1} Money*\n@${who2.split`@`[0]} : *-${users[who2].money -= rugi * 1} Money*\n@${who3.split`@`[0]} : *-${users[who3].money -= rugi * 1} Money*`, m)
-                   }, 14400000) 
+                   }, 7200000) 
                    setTimeout(() => {
                             conn.reply(m.chat, `Selamat statistik bisnis kalian meningkat\n\nMasing-masing mendapatkan:\n@${name.split`@`[0]} : *+${users[m.sender].money += untung * 1} Money*\n@${who1.split`@`[0]} : *+${users[who1].money += untung * 1} Money*\n@${who2.split`@`[0]} : *+${users[who2].money += untung * 1} Money*\n@${who3.split`@`[0]} : *+${users[who3].money += untung * 1} Money*`, m)
-                   }, 28800000) 
+                   }, 10800000) 
                    setTimeout(() => {
                             conn.reply(m.chat, `Selamat statistik bisnis kalian meningkat\n\nMasing-masing mendapatkan:\n@${name.split`@`[0]} : *+${users[m.sender].money += untung * 1} Money*\n@${who1.split`@`[0]} : *+${users[who1].money += untung * 1} Money*\n@${who2.split`@`[0]} : *+${users[who2].money += untung * 1} Money*\n@${who3.split`@`[0]} : *+${users[who3].money += untung * 1} Money*`, m)
-                   }, 43200000)
+                   }, 14400000)
                    setTimeout(() => {
                             conn.reply(m.chat, `Waahhh.. statistik bisnis kalian menurun\n\nMasing-masing minus:\n@${name.split`@`[0]} : *-${users[m.sender].money -= rugi * 1} Money*\n@${who1.split`@`[0]} : *-${users[who1].money -= rugi * 1} Money*\n@${who2.split`@`[0]} : *-${users[who2].money -= rugi * 1} Money*\n@${who3.split`@`[0]} : *-${users[who3].money -= rugi * 1} Money*`, m)
-                   }, 57600000)
+                   }, 18000000)
                    setTimeout(() => {
                             conn.reply(m.chat, `Selamat statistik bisnis kalian meningkat\n\nMasing-masing mendapatkan:\n@${name.split`@`[0]} : *+${users[m.sender].money += untung * 1} Money*\n@${who1.split`@`[0]} : *+${users[who1].money += untung * 1} Money*\n@${who2.split`@`[0]} : *+${users[who2].money += untung * 1} Money*\n@${who3.split`@`[0]} : *+${users[who3].money += untung * 1} Money*`, m)
-                   }, 72000000)
+                   }, 21600000)
       } else conn.reply(m.chat, `Anda Sudah Berbisnis , tunggu ${timers} lagi..`, m)
 }
 handler.help = ['berbisnis']

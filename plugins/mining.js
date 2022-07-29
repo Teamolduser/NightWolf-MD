@@ -14,13 +14,14 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 	let limitt = `${Math.floor(Math.random() * 15)}`.trim()
 	let xpee = `${Math.floor(Math.random() * 5000)}`.trim()
 	let moneyy = `${Math.floor(Math.random() * 5000)}`.trim()
-	global.db.data.users[m.sender].limit += limitt * 1
+	let pajak = 0.02
+	//global.db.data.users[m.sender].limit += limitt * 1
 	global.db.data.users[m.sender].exp += xpee * 1
 	global.db.data.users[m.sender].money += moneyy * 1
-	global.db.data.users[m.sender].exp -= 500
-	global.db.data.users[m.sender].money -= 500
+	//global.db.data.users[m.sender].exp -= 500
+	global.db.data.users[m.sender].money -= pajak * moneyy
 	global.db.data.users[m.sender].lastmining = new Date * 1
-  m.reply(`Selamat kamu mendapatkan : \n+${xpee} XP\n+${moneyy} Money\n+${limitt} Limit\n\nDipotong pajak :\n-500 XP\n-500 Money`)
+  m.reply(`Selamat kamu mendapatkan : \n+${xpee} XP\n+${moneyy} Money\n\nDipotong pajak :\n -${pajak * moneyy} Money`)
   setTimeout(() => {
 					conn.reply(m.chat, `Hadiah sudah bisa di dapatkan kembali`, m)
 					}, timeout)

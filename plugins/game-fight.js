@@ -42,7 +42,7 @@ conn.level = global.db.data.users[m.sender]
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *${conn.getName(lawan)}*\n\n*Kamu* (level ${global.db.data.users[m.sender].level}) MENANG melawan *${conn.getName(lawan)}* (level ${global.db.data.users[lawan].level}) karena kamu ${alasanMenang[getRandom(0,alasanMenang.length-1)]}\n\nHadiah Rp. ${hadiah.toLocaleString()}\n+1 Tiketcoin`)
   }else if (pointPemain < pointLawan){
-    let denda = (pointLawan - pointPemain) * 100000
+    let denda = (pointLawan - pointPemain) * 10000
     global.db.data.users[m.sender].money -= denda
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *${conn.getName(lawan)}*\n\n*Kamu* (level ${global.db.data.users[m.sender].level}) KALAH melawan *${conn.getName(lawan)}* (level ${global.db.data.users[lawan].level}) karena kamu ${alasanKalah[getRandom(0,alasanKalah.length-1)]}\n\nUang kamu berkurang Rp. ${denda.toLocaleString()}\n+1 Tiketcoin`)
@@ -53,7 +53,7 @@ conn.level = global.db.data.users[m.sender]
   delete conn.fight[m.sender]
 }
 handler.help = ['fighting']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(fight(ing)?)$/i
 
 handler.group = true

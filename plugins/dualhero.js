@@ -4,7 +4,7 @@ conn.hero = global.db.data.users[m.sender]
   conn.duelhero = conn.duelhero ? conn.duelhero : {}
   const delay = time => new Promise(res=>setTimeout(res,time));
 
-  if (typeof conn.duelhero[m.sender] != "undefined" && conn.duelhero[m.sender] == true) return m.reply(`*Tidak bisa melakukan pertarungan lagi karena hero anda sedang bertarung bro.*`)
+  if (typeof conn.duelhero[m.sender] != "undefined" && conn.duelhero[m.sender] == true) return m.reply(`*Tidak bisa melakukan pertarungan lagi karena hero anda sedang bertarung.*`)
 
   let users = participants.map(u => u.id)
   var lawan
@@ -42,7 +42,7 @@ conn.hero = global.db.data.users[m.sender]
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*Hero ${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *Hero ${conn.getName(lawan)}*\n\n*Hero Kamu* (Level Hero ${global.db.data.users[m.sender].hero}) MENANG melawan *Hero ${conn.getName(lawan)}* (Level Hero ${global.db.data.users[lawan].hero}) karena kamu ${alasanMenang[getRandom(0,alasanMenang.length-1)]}\n\nHadiah Rp. ${hadiah.toLocaleString()}\n+1 Tiketcoin`)
   }else if (pointPemain < pointLawan){
-    let denda = (pointLawan - pointPemain) * 100000
+    let denda = (pointLawan - pointPemain) * 10000
     global.db.data.users[m.sender].money -= denda
     global.db.data.users[m.sender].tiketcoin += 1
     m.reply(`*Hero ${conn.getName(m.sender)}* [${pointPemain * 10}] - [${pointLawan * 10}] *Hero ${conn.getName(lawan)}*\n\n*Hero Kamu* (Level Hero ${global.db.data.users[m.sender].hero}) KALAH melawan *Hero ${conn.getName(lawan)}* (Level Hero ${global.db.data.users[lawan].hero}) karena kamu ${alasanKalah[getRandom(0,alasanKalah.length-1)]}\n\nUang kamu berkurang Rp. ${denda.toLocaleString()}\n+1 Tiketcoin`)
@@ -53,7 +53,7 @@ conn.hero = global.db.data.users[m.sender]
   delete conn.duelhero[m.sender]
 }
 handler.help = ['duelhero']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(duelhero)$/i
 
 handler.group = true

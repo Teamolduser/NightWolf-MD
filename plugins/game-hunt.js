@@ -76,9 +76,9 @@ let handler = async (m, { conn, text }) => {
       if (player.level > 0) {
       if (player.sword > 0) {
         player.level -= 1
-        player.sword -= 5
+        player.sword = 0
         player.exp -= exp * 1
-        msg += `\nLevel Anda Turun 1 Karena Mati Saat Berburu!\nSword Anda Berkurang 5 Karena Mati Saat Berburu!`
+        msg += `\nLevel Anda Turun 1 Karena Mati Saat Berburu!\nSword Anda hilang Karena Mati Saat Berburu!`
       }
       }
       player.health = 100
@@ -105,7 +105,7 @@ Berkurang -${healing} Health, Tersisa ${player.health} Health
 }
 
 handler.help = ['hunter']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^hunter/i
 
 handler.group = true

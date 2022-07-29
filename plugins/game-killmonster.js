@@ -89,7 +89,7 @@ Nyawa mu berkurang -${healt * 1} karena Kamu telah berperang melawan ${pickRando
 
           
 handler.help = ['kill monster']
-handler.tags = ['game']
+handler.tags = ['rpg']
 handler.command = /^(kill)$/i
 
 handler.group = true

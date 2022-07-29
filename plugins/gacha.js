@@ -803,7 +803,7 @@ Anda telah membuka *Gardenboxs crate* dan mendapatkan:${lksk > 0 ? `\nBibitmangg
                     if (new Date - global.db.data.users[m.sender].lastopen > 30000) {
                     let mm = 100000
                     let me = 100000
-                    let mp = 50
+                    let mp = 1
                    // let mc = 50000
                     let mci = 50000
                     let Mochat = `
@@ -831,7 +831,7 @@ Anda telah membuka *Cupon crate* dan mendapatkan:${mm > 0 ? `\nMoney: ${mm} *mon
                     if (new Date - global.db.data.users[m.sender].lastopen > 30000) {
                     let mmse = 1000000
                     let mese = 1000000
-                    let mpse = 500
+                    let mpse = 10
                   //  let mcse = 500000
                     let mcise = 500000
                     let Mochatse = `

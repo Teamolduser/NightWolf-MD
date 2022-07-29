@@ -2,6 +2,11 @@
 // let pajak = 0.02
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 let dapat = (Math.floor(Math.random() * 100000))
+let pajak = 5000
+let randomaku = `${Math.floor(Math.random() * 100)}`.trim()
+let randomkamu = `${Math.floor(Math.random() * 85)}`.trim()
+let Aku = (randomaku * 1)
+let Kamu = (randomkamu * 1)
 let nomors = m.sender
   let who
   if (m.isGroup) who = m.mentionedJid[0]
@@ -14,12 +19,24 @@ let nomors = m.sender
   let users = global.db.data.users
   if (new Date - global.db.data.users[m.sender].lastrob > 3600000){
   if (10000 > users[who].money) throw 'Target Gaada Uang bodoh, Kismin dia'
-  users[who].money -= dapat * 1
+  if (Aku < Kamu){
+    users[who].money -= dapat * 1
+    users[m.sender].money += dapat * 1
+    global.db.data.users[m.sender].lastrob = new Date * 1
+    conn.reply(m.chat, `Berhasil Merampok Money Target Sebesar ${dapat}`, m)
+    }else if (Aku > Kamu){
+    users[m.sender].money -= pajak * 1 
+    global.db.data.users[m.sender].lastrob = new Date * 1
+    m.reply(`Kamu ketahuan merampok oleh Polisi, dikenakan denda sebesar ${pajak}`)
+    }else {
+    m.reply(`Anda gagal merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`)
+    }
+  /*users[who].money -= dapat * 1
   users[m.sender].money += dapat * 1
   global.db.data.users[m.sender].lastrob = new Date * 1
   conn.reply(m.chat, `Berhasil Merampok Money Target Sebesar ${dapat}`, m)
-
-}else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`, m)
+  */
+}else conn.reply(m.chat, `Anda Sudah merampok, tunggu ${timers} untuk merampok lagi`, m)
 }
 handler.help = ['merampok *@tag*']
 handler.tags = ['rpg']

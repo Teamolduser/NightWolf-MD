@@ -1,6 +1,6 @@
 const moneyplus = 1
 let handler = async (m, { conn, command, args }) => {
-  let count = command.replace(/^atm/i, '')
+  let count = command.replace(/^nabung/i, '')
   count = count ? /all/i.test(count) ? Math.floor(global.db.data.users[m.sender].money / moneyplus) : parseInt(count) : args[0] ? parseInt(args[0]) : 1
   count = Math.max(1, count)
   if (global.db.data.users[m.sender].money >= moneyplus * count) {
@@ -9,9 +9,9 @@ let handler = async (m, { conn, command, args }) => {
     conn.reply(m.chat, `-${moneyplus * count} Money\n+ ${count} ATM`, m)
   } else conn.reply(m.chat, `Money tidak mencukupi untuk menabung ${count} ATM`, m)
 }
-handler.help = ['atm <jumlah>', 'atmall']
+handler.help = ['nabung <jumlah>', 'nabungall']
 handler.tags = ['rpg']
-handler.command = /^atm([0-9]+)|atm|atmall$/i
+handler.command = /^nabung([0-9]+)|nabung|nabungall$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

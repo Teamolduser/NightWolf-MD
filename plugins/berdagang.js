@@ -16,33 +16,33 @@ let dapat = (Math.floor(Math.random() * 5000))
   if (4999 > users[who].money) throw 'Target tidak memiliki modal harap masukkan modal 5000'
   if (4999 > users[m.sender].money) throw 'kamu tidak memiliki modal harap masukkan modal 5000'
   users[who].money -= dapat * 1
- users[m.sender].money -= dapat * 1
+  users[m.sender].money -= dapat * 1
   global.db.data.users[m.sender].lastdagang = new Date * 1
   conn.reply(m.chat, `Mohon tunggu kak..\nKamu dan @${who.split`@`[0]} sedang berdagang.. 😅\n\nKamu dan @${who.split`@`[0]} meletakkan modal -${dapat} 😅`, m)
+  setTimeout(() => {
+					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
+					}, 1800000)
   setTimeout(() => {
 					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
 					}, 3600000)
   setTimeout(() => {
 					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
+					}, 5400000)
+  setTimeout(() => {
+					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
 					}, 7200000)
+  setTimeout(() => {
+					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
+					}, 9000000)
   setTimeout(() => {
 					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
 					}, 10800000)
   setTimeout(() => {
 					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
-					}, 14400000)
-  setTimeout(() => {
-					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
-					}, 18000000)
-  setTimeout(() => {
-					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
-					}, 21600000)
-  setTimeout(() => {
-					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +5000\n${users[m.sender].money += 5000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +5000\n${users[who].money += 5000} Money @${who.split`@`[0]}`, m)
-					}, 25200000)
+					}, 12600000)
   setTimeout(() => {
 					conn.reply(m.chat, `Selamat kamu dan @${who.split`@`[0]} mendapatkan money..\n\nPenghasilan dagang kamu didapatkan +10000\n${users[m.sender].money += 10000} Money kamu\n\nPenghasilan dagang @${who.split`@`[0]} didapatkan +10000\n${users[who].money += 10000} Money @${who.split`@`[0]}`, m)
-					}, 28800000)
+					}, 14400000)
 }else conn.reply(m.chat, `Anda Sudah Berdagang , tunggu ${timers} lagi..`, m)
 }
 handler.help = ['berdagang *@tag*']
