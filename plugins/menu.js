@@ -15,6 +15,7 @@ let tags = {
   'quotes': 'Quotes',
   'admin': 'Admin',
   'group': 'Group',
+  'anime':'Anime',
   'internet': 'Internet',
   'anonymous': 'Anonymous Chat',
   'downloader': 'Downloader',
