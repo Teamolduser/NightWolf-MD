@@ -28,7 +28,7 @@ handler.help = ['salat <daerah>']
 handler.tags = ['quran']
 handler.command = /^(jadwal)?s(a|o|ha|ho)lat$/i
 
-module.exports = handler*/
+module.exports = handler
 
 const sholatAll = require('../lib/salat')
 let axios = require('axios')
@@ -76,4 +76,28 @@ function city() {
         })
         resolve(collect)
     })
+}*/
+
+let xfar = require('xfarr-api')
+let fetch = require('node-fetch')
+let handler = async (m, { conn, command, text }) => {
+    if (!text) throw 'Masukkan nama daerah\n\nContoh: .jadwalsholat jakarta'
+  let res = await xfar.JadwalSholat(text)
+conn.sendBut(m.chat, ` *JADWAL SHOLAT*
+${text}
+
+_*${res.tanggal}*_
+Imsyak: ${res.imsyak}
+Subuh: _${res.subuh}_
+Dzuhur: _${res.dzuhur}_
+Ashar: ${res.ashar}
+Maghrib: ${res.maghrib}
+Isya: ${res.isya}
+`, wm, 'ok', 'huaa',m)
+
 }
+handler.help = ['jadwalsholat <daerah>']
+handler.tags = ['islami']
+handler.command = /^jadwal(sholat|salat|Shalat)$/i
+
+module.exports = handler
