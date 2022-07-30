@@ -14,12 +14,13 @@ type *${usedPrefix}buy potion ${count - user.potion}* to buy 🧃Potion
         user.potion -= full * 1
         user.health += heal * full
         m.reply(`Successful use of *${full}* 🧃Potion(s)`)
-    }
+    } else {
     user.potion -= count * 1
     user.health += heal * count
     m.reply(`
 Successful use of *${count}* 🧃Potion(s)
 `.trim())
+    }
 }
 
 handler.help = ['heal']
