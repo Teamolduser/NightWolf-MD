@@ -12,7 +12,7 @@ handler.command = /^(cecan)$/i
 module.exports = handler*/
 
 let handler = async (m, { conn }) => {
-   let img = 'https://api-reysekha.herokuapp.com/api/wallpaper/cecan?apikey=APIKEY'
+   let img = 'https://api.zacros.my.id/asupan/cecan'
       conn.sendButtonImg(m.chat, img, 'Sayang....', wm, 'NEXT', '.cecan', m)
    }
    handler.help = ['cecan']
