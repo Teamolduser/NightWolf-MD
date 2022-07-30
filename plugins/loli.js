@@ -1,4 +1,4 @@
-let scrap = require("../lib/scraper_pinterest")
+/*let scrap = require("../lib/scraper_pinterest")
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
@@ -9,4 +9,14 @@ handler.help = ['loli']
 handler.tags = ['anime']
 handler.command = /^(loli)$/i
 
+module.exports = handler*/
+
+let handler = async (m, { conn }) => {
+let img = 'https://api-reysekha.herokuapp.com/api/wallpaper/loli?apikey=APIKEY'
+   conn.sendButtonImg(m.chat, img, 'Onii-Chan', wm, 'NEXT', '.loli', m)
+}
+handler.help = ['loli']
+handler.tags = ['anime']
+handler.command = /^(loli)$/i
+   
 module.exports = handler
