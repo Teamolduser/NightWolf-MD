@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     }
     // ubah isi 'id' kalo mau ganti playlist spotifynya
     
-    let src = await (await fetch('https://raw.githubusercontent.com/Aiinne/scrape/main/tebaklagu.json')).json()
+    let src = await (await fetch('https://raw.githubusercontent.com/NightWolf324/scrape/main/tebaklagu.json')).json()
     let json = src[Math.floor(Math.random() * src.length)]
     // if (!json.status) throw json
     let caption = `
