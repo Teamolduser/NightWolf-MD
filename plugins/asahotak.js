@@ -22,9 +22,10 @@ Tiketcoin: ${tiketcoin} TiketCoin
 `.trim()
     conn.asahotak[id] = [
         await conn.reply(m.chat, caption, m),
+        await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.ao', m),
         json, poin,
         setTimeout(() => {
-            if (conn.asahotak[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.asahotak[id][0])
+            if (conn.asahotak[id]) conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, wm, 'Asah Otak', '.asahotak', conn.asahotak[id][0])
             delete conn.asahotak[id]
         }, timeout)
     ]

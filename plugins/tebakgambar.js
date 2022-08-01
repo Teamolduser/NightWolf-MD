@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     throw false
   }
   let src = await (await fetch('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')).json()
-    let json = src[Math.floor(Math.random() * src.length)]
+  let json = src[Math.floor(Math.random() * src.length)]
   // if (!json.status) throw json
   let caption = `
   ${json.deskripsi}
@@ -20,10 +20,11 @@ Bonus: ${poin} XP
 Tiketcoin: 1 Tiketcoin
     `.trim()
   conn.tebakgambar[id] = [
-    await conn.sendFile(m.chat, json.img, 'tebakgambar.jpg', caption, m, false, { thumbnail: Buffer.alloc(0) }),
+    //await conn.sendFile(m.chat, json.img, 'tebakgambar.jpg', caption, m, false, { thumbnail: Buffer.alloc(0) }),
+    await conn.sendButtonImg(m.chat, json.img, caption, wm, 'Bantuan', '.hint', m),
     json, poin,
     setTimeout(() => {
-      if (conn.tebakgambar[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.tebakgambar[id][0])
+      if (conn.tebakgambar[id]) conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, wm, 'Tebak Gambar', '.tebakgambar', conn.tebakgambar[id][0])
       delete conn.tebakgambar[id]
     }, timeout)
   ]

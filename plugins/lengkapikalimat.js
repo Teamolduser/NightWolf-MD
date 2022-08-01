@@ -18,10 +18,10 @@ Ketik ${usedPrefix}leka untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.lengkapikalimat[id] = [
-        await conn.reply(m.chat, caption, m),
+        await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.leka', m),
         json, poin,
         setTimeout(() => {
-            if (conn.lengkapikalimat[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.lengkapikalimat[id][0])
+            if (conn.lengkapikalimat[id]) conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, wm, 'Lengkapi Kalimat', '.lengkapikalimat', conn.lengkapikalimat[id][0])
             delete conn.lengkapikalimat[id]
         }, timeout)
     ]

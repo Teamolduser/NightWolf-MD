@@ -20,10 +20,11 @@ Bonus: ${poin} XP
 TiketCoin: ${tiketcoin}
     `.trim()
   conn.tebakgame[id] = [
-    await conn.sendFile(m.chat, json.img, 'tebakgame.jpg', caption, m, false, { thumbnail: Buffer.alloc(0) }),
+    //await conn.sendFile(m.chat, json.img, 'tebakgame.jpg', caption, m, false, { thumbnail: Buffer.alloc(0) }),
+    await conn.sendButtonImg(m.chat, json.img, caption, wm, 'Bantuan', '.tega', m),
     json, poin,
     setTimeout(() => {
-      if (conn.tebakgame[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.tebakgame[id][0])
+      if (conn.tebakgame[id]) conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, wm, 'Tebak Game', '.tebakgame', conn.tebakgame[id][0])
       delete conn.tebakgame[id]
     }, timeout)
   ]

@@ -21,10 +21,10 @@ Bonus: ${poin} XP
 Tiketcoin: ${tiketcoin} TiketCoin
 `.trim()
     conn.caklontong[id] = [
-        await conn.reply(m.chat, caption, m),
+        await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.calo', m),
         json, poin,
         setTimeout(() => {
-            if (conn.caklontong[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*\n${json.deskripsi}`, conn.caklontong[id][0])
+            if (conn.caklontong[id]) conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*\n${json.deskripsi}`, wm, 'Cak Lontong', '.caklontong', conn.caklontong[id][0])
             delete conn.caklontong[id]
         }, timeout)
     ]
