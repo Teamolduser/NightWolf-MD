@@ -790,7 +790,7 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                       if (m.limit) m.reply(+ m.limit + ' Limit used')
+                       //if (m.limit) m.reply(+ m.limit + ' Limit used')
                     }
                     break
                 }
