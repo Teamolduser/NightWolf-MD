@@ -21,7 +21,7 @@ Bonus: ${poin} XP
 Tiketcoin: ${tiketcoin} TiketCoin
 `.trim()
     conn.asahotak[id] = [
-        await conn.reply(m.chat, caption, m),
+        //await conn.reply(m.chat, caption, m),
         await conn.sendBut(m.chat, caption, wm, 'Bantuan', '.ao', m),
         json, poin,
         setTimeout(() => {
