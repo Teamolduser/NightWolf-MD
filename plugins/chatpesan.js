@@ -6,11 +6,12 @@ let [number, pesan] = text.split `|`
     if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya', m)
     if (text > 500) return conn.reply(m.chat, 'Teks Kepanjangan!', m)
     
-    let user = global.db.data.users[m.sender]
+    let user = global.db.data.users[m.sender].name 
+    let username = conn.getName(m.sender)
 
     let korban = `${number}`
     var nomor = m.sender
-    let spam1 = `*「 SUKSES 」*\n\nDari : wa.me/${korban}\nPesan : ${pesan}\n\n*${global.wm}*`
+    let spam1 = `*「 SUKSES 」*\n\nDari : *${username.replace(/@.+/, '')}*\nPesan : ${pesan}\n\n*${global.wm}*`
 
     conn.reply(korban + '@s.whatsapp.net', spam1, m)
 
