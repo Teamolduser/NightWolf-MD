@@ -11,9 +11,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     throw false
   }
   //let res = await fetch(global.API('restapi', '/api/tebak-anime', {}, 'apikey'))
-  if (!src) src = await (await fetch(global.API('https://raw.githubusercontent.com', '/NightWolf324/scrape/tebakanime.json'))).json()
+  let src = await (await fetch('https://raw.githubusercontent.com/NightWolf324/scrape/tebakanime.json')).json()
   let json = src[Math.floor(Math.random() * src.length)]
-  if (!json) throw json
   //if (res.status !== 200) throw await res.text()
   //let json = await res.json()
   // if (!json.status) throw json
