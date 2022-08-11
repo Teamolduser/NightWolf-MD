@@ -37,7 +37,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjadua += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqew = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqew} Money\n+${expqew} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqew} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqew = `Selamat kamu sudah bekerja keras di hari ke-2 dan mendapatkan:\n+${moneyqew} Money\n+${expqew} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqew} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqew, m)
                                                   
                                              } else m.reply(`Aqua tidak cukup, minimal aqua 5 untuk bisa bekerja`)
@@ -60,8 +60,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   if (global.db.data.users[m.sender].aqua > 4) {
                                                   
                                                   let _healingqee = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqee = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqee = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqee = `${Math.floor(Math.random() * 1500)}`.trim()
+                                                  let _moneyqee = `${Math.floor(Math.random() * 15000)}`.trim()
                                                   
                                                   let healingqee = (_healingqee * 1)
                                                   let expqee = (_expqee * 1)
@@ -76,7 +76,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjatiga += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqee = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqee} Money\n+${expqee} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqee} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqee = `Selamat kamu sudah bekerja keras di hari ke-3 dan mendapatkan:\n+${moneyqee} Money\n+${expqee} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqee} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqee, m)
                                                   
                                              } else m.reply(`Aqua tidak cukup, minimal aqua 5 untuk bisa bekerja`)
@@ -99,8 +99,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   if (global.db.data.users[m.sender].aqua > 4) {
 
                                                   let _healingqer = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqer = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqer = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqer = `${Math.floor(Math.random() * 2000)}`.trim()
+                                                  let _moneyqer = `${Math.floor(Math.random() * 20000)}`.trim()
                                                   
                                                   let healingqer = (_healingqer * 1)
                                                   let expqer = (_expqer * 1)
@@ -115,7 +115,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaempat += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqer = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqer} Money\n+${expqer} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqer} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqer = `Selamat kamu sudah bekerja keras di hari ke-4 dan mendapatkan:\n+${moneyqer} Money\n+${expqer} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqer} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqer, m)
                                                   
                                              } else m.reply(`Aqua tidak cukup, minimal aqua 5 untuk bisa bekerja`)
@@ -138,8 +138,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   if (global.db.data.users[m.sender].aqua > 4) {
                                                   
                                                   let _healingqet = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqet = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqet = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqet = `${Math.floor(Math.random() * 2500)}`.trim()
+                                                  let _moneyqet = `${Math.floor(Math.random() * 25000)}`.trim()
                                                   
                                                   let healingqet = (_healingqet * 1)
                                                   let expqet = (_expqet * 1)
@@ -154,7 +154,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjalima += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqet = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqet} Money\n+${expqet} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqet} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqet = `Selamat kamu sudah bekerja keras di hari ke-5 dan mendapatkan:\n+${moneyqet} Money\n+${expqet} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqet} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqet, m)
                                                   
                                                   
@@ -179,8 +179,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqey = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqey = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqey = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqey = `${Math.floor(Math.random() * 3000)}`.trim()
+                                                  let _moneyqey = `${Math.floor(Math.random() * 30000)}`.trim()
                                                   
                                                   let healingqey = (_healingqey * 1)
                                                   let expqey = (_expqey * 1)
@@ -195,7 +195,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaenam += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqey = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqey} Money\n+${expqey} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqey} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqey = `Selamat kamu sudah bekerja keras di hari ke-6 dan mendapatkan:\n+${moneyqey} Money\n+${expqey} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqey} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqey, m)
                                                   
                                                   
@@ -220,8 +220,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqeu = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeu = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeu = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeu = `${Math.floor(Math.random() * 3500)}`.trim()
+                                                  let _moneyqeu = `${Math.floor(Math.random() * 35000)}`.trim()
                                                   
                                                   let healingqeu = (_healingqeu * 1)
                                                   let expqeu = (_expqeu * 1)
@@ -236,7 +236,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjatujuh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeu} Money\n+${expqeu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeu = `Selamat kamu sudah bekerja keras di hari ke-7 dan mendapatkan:\n+${moneyqeu} Money\n+${expqeu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeu, m)
                                                   
                                                   
@@ -261,8 +261,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqei = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqei = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqei = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqei = `${Math.floor(Math.random() * 4000)}`.trim()
+                                                  let _moneyqei = `${Math.floor(Math.random() * 40000)}`.trim()
                                                   
                                                   let healingqei = (_healingqei * 1)
                                                   let expqei = (_expqei * 1)
@@ -277,7 +277,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjadelapan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqei = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqei} Money\n+${expqei} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqei} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqei = `Selamat kamu sudah bekerja keras di hari ke-8 dan mendapatkan:\n+${moneyqei} Money\n+${expqei} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqei} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqei, m)
                                                   
                                                   
@@ -302,8 +302,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqeo = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeo = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeo = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeo = `${Math.floor(Math.random() * 4500)}`.trim()
+                                                  let _moneyqeo = `${Math.floor(Math.random() * 45000)}`.trim()
                                                   
                                                   let healingqeo = (_healingqeo * 1)
                                                   let expqeo = (_expqeo * 1)
@@ -318,7 +318,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjasembilan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeo = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeo} Money\n+${expqeo} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeo} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeo = `Selamat kamu sudah bekerja keras di hari ke-9 dan mendapatkan:\n+${moneyqeo} Money\n+${expqeo} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeo} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeo, m)
                                                   
                                                   
@@ -343,8 +343,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqep = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqep = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqep = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqep = `${Math.floor(Math.random() * 5000)}`.trim()
+                                                  let _moneyqep = `${Math.floor(Math.random() * 50000)}`.trim()
                                                   
                                                   let healingqep = (_healingqep * 1)
                                                   let expqep = (_expqep * 1)
@@ -359,7 +359,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjasepuluh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqep = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqep} Money\n+${expqep} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqep} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqep = `Selamat kamu sudah bekerja keras di hari ke-10 dan mendapatkan:\n+${moneyqep} Money\n+${expqep} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqep} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqep, m)
                                                   
                                                   
@@ -384,8 +384,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqea = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqea = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqea = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqea = `${Math.floor(Math.random() * 5500)}`.trim()
+                                                  let _moneyqea = `${Math.floor(Math.random() * 55000)}`.trim()
                                                   
                                                   let healingqea = (_healingqea * 1)
                                                   let expqea = (_expqea * 1)
@@ -400,7 +400,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjasebelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqea = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqea} Money\n+${expqea} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqea} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqea = `Selamat kamu sudah bekerja keras di hari ke-11 dan mendapatkan:\n+${moneyqea} Money\n+${expqea} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqea} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqea, m)
                                                   
                                                   
@@ -425,8 +425,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqes = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqes = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqes = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqes = `${Math.floor(Math.random() * 6000)}`.trim()
+                                                  let _moneyqes = `${Math.floor(Math.random() * 60000)}`.trim()
                                                   
                                                   let healingqes = (_healingqes * 1)
                                                   let expqes = (_expqes * 1)
@@ -441,7 +441,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqes = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqes} Money\n+${expqes} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqes} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqes = `Selamat kamu sudah bekerja keras di hari ke-12 dan mendapatkan:\n+${moneyqes} Money\n+${expqes} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqes} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqes, m)
                                                   
                                                   
@@ -466,8 +466,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqed = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqed = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqed = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqed = `${Math.floor(Math.random() * 6500)}`.trim()
+                                                  let _moneyqed = `${Math.floor(Math.random() * 65000)}`.trim()
                                                   
                                                   let healingqed = (_healingqed * 1)
                                                   let expqed = (_expqed * 1)
@@ -482,7 +482,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjatigabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqed = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqed} Money\n+${expqed} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqed} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqed = `Selamat kamu sudah bekerja keras di hari ke-13 dan mendapatkan:\n+${moneyqed} Money\n+${expqed} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqed} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqed, m)
                                                   
                                                   
@@ -507,8 +507,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqef = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqef = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqef = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqef = `${Math.floor(Math.random() * 7000)}`.trim()
+                                                  let _moneyqef = `${Math.floor(Math.random() * 70000)}`.trim()
                                                   
                                                   let healingqef = (_healingqef * 1)
                                                   let expqef = (_expqef * 1)
@@ -523,7 +523,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaempatbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqef = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqef} Money\n+${expqef} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqef} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqef = `Selamat kamu sudah bekerja keras di hari ke-14 dan mendapatkan:\n+${moneyqef} Money\n+${expqef} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqef} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqef, m)
                                                   
                                                   
@@ -548,8 +548,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqeg = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeg = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeg = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeg = `${Math.floor(Math.random() * 7500)}`.trim()
+                                                  let _moneyqeg = `${Math.floor(Math.random() * 75000)}`.trim()
                                                   
                                                   let healingqeg = (_healingqeg * 1)
                                                   let expqeg = (_expqeg * 1)
@@ -564,7 +564,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjalimabelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeg = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeg} Money\n+${expqeg} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeg} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeg = `Selamat kamu sudah bekerja keras di hari ke-15 dan mendapatkan:\n+${moneyqeg} Money\n+${expqeg} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeg} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeg, m)
                                                   
                                                   
@@ -589,8 +589,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqeh = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeh = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeh = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeh = `${Math.floor(Math.random() * 8000)}`.trim()
+                                                  let _moneyqeh = `${Math.floor(Math.random() * 80000)}`.trim()
                                                   
                                                   let healingqeh = (_healingqeh * 1)
                                                   let expqeh = (_expqeh * 1)
@@ -605,7 +605,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaenambelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeh} Money\n+${expqeh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeh = `Selamat kamu sudah bekerja keras di hari ke-16 dan mendapatkan:\n+${moneyqeh} Money\n+${expqeh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeh, m)
                                                   
                                                   
@@ -630,8 +630,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqej = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqej = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqej = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqej = `${Math.floor(Math.random() * 8500)}`.trim()
+                                                  let _moneyqej = `${Math.floor(Math.random() * 85000)}`.trim()
                                                   
                                                   let healingqej = (_healingqej * 1)
                                                   let expqej = (_expqej * 1)
@@ -646,7 +646,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjatujuhbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqej = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqej} Money\n+${expqej} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqej} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqej = `Selamat kamu sudah bekerja keras di hari ke-17 dan mendapatkan:\n+${moneyqej} Money\n+${expqej} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqej} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqej, m)
                                                   
                                                   
@@ -671,8 +671,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqek = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqek = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqek = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqek = `${Math.floor(Math.random() * 9000)}`.trim()
+                                                  let _moneyqek = `${Math.floor(Math.random() * 90000)}`.trim()
                                                   
                                                   let healingqek = (_healingqek * 1)
                                                   let expqek = (_expqek * 1)
@@ -687,7 +687,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjadelapanbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqek = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqek} Money\n+${expqek} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqek} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqek = `Selamat kamu sudah bekerja keras di hari ke-18 dan mendapatkan:\n+${moneyqek} Money\n+${expqek} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqek} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqek, m)
                                                   
                                                   
@@ -712,8 +712,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqel = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqel = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqel = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqel = `${Math.floor(Math.random() * 9500)}`.trim()
+                                                  let _moneyqel = `${Math.floor(Math.random() * 95000)}`.trim()
                                                   
                                                   let healingqel = (_healingqel * 1)
                                                   let expqel = (_expqel * 1)
@@ -728,7 +728,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjasembilanbelas += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqel = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqel} Money\n+${expqel} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqel} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqel = `Selamat kamu sudah bekerja keras di hari ke-19 dan mendapatkan:\n+${moneyqel} Money\n+${expqel} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqel} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqel, m)
                                                   
                                                   
@@ -753,8 +753,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqefh = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqefh = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqefh = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqefh = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _moneyqefh = `${Math.floor(Math.random() * 100000)}`.trim()
                                                   
                                                   let healingqefh = (_healingqefh * 1)
                                                   let expqefh = (_expqefh * 1)
@@ -769,7 +769,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduapuluh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqefh = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqefh} Money\n+${expqefh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqefh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqefh = `Selamat kamu sudah bekerja keras di hari ke-20 dan mendapatkan:\n+${moneyqefh} Money\n+${expqefh} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqefh} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqefh, m)
                                                   
                                                   
@@ -794,8 +794,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqez = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqez = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqez = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqez = `${Math.floor(Math.random() * 10500)}`.trim()
+                                                  let _moneyqez = `${Math.floor(Math.random() * 105000)}`.trim()
                                                   
                                                   let healingqez = (_healingqez * 1)
                                                   let expqez = (_expqez * 1)
@@ -810,7 +810,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduasatu += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqez = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqez} Money\n+${expqez} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqez} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqez = `Selamat kamu sudah bekerja kerasdi hari ke-21 dan mendapatkan:\n+${moneyqez} Money\n+${expqez} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqez} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqez, m)
                                                   
                                                   
@@ -835,8 +835,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                  
                                                   
                                                   let _healingqex = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqex = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqex = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqex = `${Math.floor(Math.random() * 11000)}`.trim()
+                                                  let _moneyqex = `${Math.floor(Math.random() * 110000)}`.trim()
                                                   
                                                   let healingqex = (_healingqex * 1)
                                                   let expqex = (_expqex * 1)
@@ -851,7 +851,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduadua += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqex = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqex} Money\n+${expqex} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqex} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqex = `Selamat kamu sudah bekerja keras di hari ke-22 dan mendapatkan:\n+${moneyqex} Money\n+${expqex} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqex} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqex, m)
                                                   
                                                   
@@ -876,8 +876,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqec = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqec = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqec = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqec = `${Math.floor(Math.random() * 11500)}`.trim()
+                                                  let _moneyqec = `${Math.floor(Math.random() * 115000)}`.trim()
                                                   
                                                   let healingqec = (_healingqec * 1)
                                                   let expqec = (_expqec * 1)
@@ -892,7 +892,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduatiga += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqec = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqec} Money\n+${expqec} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqec} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqec = `Selamat kamu sudah bekerja keras di hari ke-23 dan mendapatkan:\n+${moneyqec} Money\n+${expqec} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqec} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqec, m)
                                                   
                                                  
@@ -917,8 +917,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqev = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqev = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqev = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqev = `${Math.floor(Math.random() * 12000)}`.trim()
+                                                  let _moneyqev = `${Math.floor(Math.random() * 120000)}`.trim()
                                                   
                                                   let healingqev = (_healingqev * 1)
                                                   let expqev = (_expqev * 1)
@@ -933,7 +933,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduaempat += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqev = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqev} Money\n+${expqev} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqev} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqev = `Selamat kamu sudah bekerja keras di hari ke-24 dan mendapatkan:\n+${moneyqev} Money\n+${expqev} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqev} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqev, m)
                                                   
                                                   
@@ -958,8 +958,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqeb = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeb = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeb = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeb = `${Math.floor(Math.random() * 12500)}`.trim()
+                                                  let _moneyqeb = `${Math.floor(Math.random() * 125000)}`.trim()
                                                   
                                                   let healingqeb = (_healingqeb * 1)
                                                   let expqeb = (_expqeb * 1)
@@ -974,7 +974,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjadualima+= 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeb = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeb} Money\n+${expqeb} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeb} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeb = `Selamat kamu sudah bekerja keras di hari ke-25 dan mendapatkan:\n+${moneyqeb} Money\n+${expqeb} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeb} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeb, m)
                                                   
                                                   
@@ -999,8 +999,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqen = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqen = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqen = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqen = `${Math.floor(Math.random() * 13000)}`.trim()
+                                                  let _moneyqen = `${Math.floor(Math.random() * 130000)}`.trim()
                                                   
                                                   let healingqen = (_healingqen * 1)
                                                   let expqen = (_expqen * 1)
@@ -1015,7 +1015,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduaenam += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqen = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqen} Money\n+${expqen} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqen} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqen = `Selamat kamu sudah bekerja keras di hari ke-26 dan mendapatkan:\n+${moneyqen} Money\n+${expqen} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqen} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqen, m)
                                                   
                                                   
@@ -1040,8 +1040,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqem = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqem = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqem = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqem = `${Math.floor(Math.random() * 13500)}`.trim()
+                                                  let _moneyqem = `${Math.floor(Math.random() * 135000)}`.trim()
                                                   
                                                   let healingqem = (_healingqem * 1)
                                                   let expqem = (_expqem * 1)
@@ -1056,7 +1056,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduatujuh += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqem = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqem} Money\n+${expqem} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqem} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqem = `Selamat kamu sudah bekerja keras di hari ke-27 dan mendapatkan:\n+${moneyqem} Money\n+${expqem} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqem} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqem, m)
                                                   
                                                   
@@ -1081,8 +1081,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqse = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqse = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqse = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqse = `${Math.floor(Math.random() * 14000)}`.trim()
+                                                  let _moneyqse = `${Math.floor(Math.random() * 140000)}`.trim()
                                                   
                                                   let healingqse = (_healingqse * 1)
                                                   let expqse = (_expqse * 1)
@@ -1097,7 +1097,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduadelapan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqse = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqse} Money\n+${expqse} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqse} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqse = `Selamat kamu sudah bekerja keras di hari ke-28 dan mendapatkan:\n+${moneyqse} Money\n+${expqse} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqse} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqse, m)
                                                   
                                                   
@@ -1122,8 +1122,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqsu = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqsu = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqsu = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqsu = `${Math.floor(Math.random() * 14500)}`.trim()
+                                                  let _moneyqsu = `${Math.floor(Math.random() * 145000)}`.trim()
                                                   
                                                   let healingqsu = (_healingqsu * 1)
                                                   let expqsu = (_expqsu * 1)
@@ -1138,7 +1138,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduasembilan += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqsu = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqsu} Money\n+${expqsu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqsu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqsu = `Selamat kamu sudah bekerja keras di hari ke-29 dan mendapatkan:\n+${moneyqsu} Money\n+${expqsu} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqsu} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqsu, m)
                                                   
                                                   
@@ -1163,8 +1163,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   
                                                   
                                                   let _healingqso = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqso = `${Math.floor(Math.random() * 10000)}`.trim()
-                                                  let _moneyqso = `${Math.floor(Math.random() * 1000000)}`.trim()
+                                                  let _expqso = `${Math.floor(Math.random() * 15000)}`.trim()
+                                                  let _moneyqso = `${Math.floor(Math.random() * 150000)}`.trim()
                                                   
                                                   let healingqso = (_healingqso * 1)
                                                   let expqso = (_expqso * 1)
@@ -1179,7 +1179,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjaduasembilan -= 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqso = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqso} Money\n+${expqso} Exp\n+2 Cupon\n+5 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqso} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqso = `Selamat kamu sudah bekerja keras di hari ke-30 dan mendapatkan:\n+${moneyqso} Money\n+${expqso} Exp\n+2 Cupon\n+5 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqso} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqso, m)
                                                   
                                                   
@@ -1202,8 +1202,8 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   if (global.db.data.users[m.sender].aqua > 4) {
                                                   
                                                   let _healingqeq = `${Math.floor(Math.random() * 101)}`.trim()
-                                                  let _expqeq = `${Math.floor(Math.random() * 1000)}`.trim()
-                                                  let _moneyqeq = `${Math.floor(Math.random() * 10000)}`.trim()
+                                                  let _expqeq = `${Math.floor(Math.random() * 500)}`.trim()
+                                                  let _moneyqeq = `${Math.floor(Math.random() * 5000)}`.trim()
                                                   
                                                   let healingqeq = (_healingqeq * 1)
                                                   let expqeq = (_expqeq * 1)
@@ -1217,7 +1217,7 @@ let handler = async(m, { conn, args, usedPrefix, command, text }) => {
                                                   global.db.data.users[m.sender].kerjasatu += 2
                                                   global.db.data.users[m.sender].lastpekerjaan = new Date * 1
                                                   
-                                                  let chatqeq = `Selamat kamu sudah bekerja keras dan mendapatkan:\n+${moneyqeq} Money\n+${expqeq} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeq} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
+                                                  let chatqeq = `Selamat kamu sudah bekerja keras di hari ke-1 dan mendapatkan:\n+${moneyqeq} Money\n+${expqeq} Exp\n+1 Tiketcoin\n\nhealth dan aqua mu berkurang\n-${healingqeq} health\n-5 Aqua\n\nJangan lupa untuk absen besok ya :)`.trim()
                                                   conn.reply(m.chat, chatqeq, m)
                                                   
                                                   } else m.reply(`Aqua tidak cukup, minimal aqua 5 untuk bisa bekerja`)
