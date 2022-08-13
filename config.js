@@ -8,7 +8,10 @@ owner = [
   ['6285640104318', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-mods = [] // Want some help?
+mods = [
+  ['6285156957462', 'REXX'],
+  ['6282122955409', 'DIMM']
+] // Want some help?
 prems = [] // Premium user has unlimited limit
 APIs = { // API Prefix
   // name: 'https://website'
