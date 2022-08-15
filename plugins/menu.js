@@ -462,60 +462,61 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
       name,
       ucapan: ucapan(),
       level, limit, money, name, weton, week, date, dateIslamic, wib, wit, wita, time, totalreg, rtotalreg, role,
-      readmore: readMore
+      readmore: readMore,
+      pp : await conn.profilePictureUrl(conn.user.jid, 'image')
     }
 
-  text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya2)).buffer()}, { upload: conn.waUploadToServer }) 
-    const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-    templateMessage: {
-        hydratedTemplate: {
-          imageMessage: message.imageMessage, 
-          hydratedContentText: text, 
-          hydratedFooterText: wm2, 
-          hydratedButtons: [{
-          urlButton: {
-             displayText: 'Website Creator',
-             url: web
-           }
+    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(pp)).buffer()}, { upload: conn.waUploadToServer }) 
+      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+      templateMessage: {
+          hydratedTemplate: {
+            imageMessage: message.imageMessage, 
+            hydratedContentText: text, 
+            hydratedFooterText: wm, 
+            hydratedButtons: [{
+            urlButton: {
+               displayText: 'Website Creator',
+               url: web
+             }
 
-         },
-           {
-           urlButton: {
-             displayText: 'Group Bot', 
-             url: gc
-           }
+           },
+             {
+             urlButton: {
+               displayText: 'Group Bot', 
+               url: gc
+             }
 
-         },
-           {
-           quickReplyButton: {
-             displayText: 'Owner',
-             id: '.owner',
-           }
+           },
+             {
+             quickReplyButton: {
+               displayText: 'Owner',
+               id: '.owner',
+             }
 
-         },
-           {
-           quickReplyButton: {
-             displayText: 'Speed',
-             id: '.ping',
-           }
+           },
+             {
+             quickReplyButton: {
+               displayText: 'Speed',
+               id: '.ping',
+             }
 
-         },
-           {
-           quickReplyButton: {
-             displayText: 'Donasi',
-             id: '.donasi',
-           }
-         }]
+           },
+             {
+             quickReplyButton: {
+               displayText: 'Donasi',
+               id: '.donasi',
+             }
+           }]
+         }
        }
-     }
-   }), { userJid: m.sender, quoted: m });
-   //conn.reply(m.chat, text.trim(), m)
-   return await conn.relayMessage(
-       m.chat,
-       template.message,
-       { messageId: template.key.id }
-   )
+     }), { userJid: m.sender, quoted: m });
+     //conn.reply(m.chat, text.trim(), m)
+    return await conn.relayMessage(
+         m.chat,
+         template.message,
+         { messageId: template.key.id }
+     )
     /*text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://instagram.com/Nightwolf.324', 'Instagram', '', '', [
       ['Event', '/event'],
