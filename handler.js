@@ -17,6 +17,9 @@ module.exports = {
         let m = chatUpdate.messages[chatUpdate.messages.length - 1]
         if (!m) return
         // console.log(m)
+        const Tnow = (new Date()/1000).toFixed(0)
+        const seli = Tnow - m.messageTimestamp
+        if (seli > global.Intervalmsg) return console.log(new ReferenceError(`Pesan ${Intervalmsg} detik yang lalu diabaikan agar tidak nyepam`))
         try {
             m = simple.smsg(this, m) || m
             if (!m) return
@@ -45,6 +48,7 @@ module.exports = {
                     if (!('banned' in user)) user.banned = false
                     if (!('premium' in user)) user.premium = false
                     if (!isNumber(user.premiumDate)) user.premiumDate = 0
+                    if (!('created' in user)) user.created = false
                     if (!isNumber(user.bannedDate)) user.bannedDate = 0
                     if (!isNumber(user.warn)) user.warn = 0
                     if (!isNumber(user.level)) user.level = 0
@@ -275,6 +279,8 @@ module.exports = {
                     if (!isNumber(user.lastnebang)) user.lastnebang = 0
                     if (!isNumber(user.lastberkebon))user.lastberkebon = 0
                     if (!isNumber(user.lastadventure)) user.lastadventure = 0
+                    if (!isNumber(user.lastlawan)) user.lastlawan = 0
+                    if (!isNumber(user.lastlatih)) user.lastlatih = 0
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
                     limit: 15,
@@ -297,6 +303,7 @@ module.exports = {
                     pasangan: '',
                     banned: false,
                     premium: false,
+                    created: false,
                     warn: 0,
                     pc: 0,
                     expg: 0,
@@ -517,6 +524,8 @@ module.exports = {
                     lastnebang: 0,
                     lastberkebon: 0,
                     lastadventure: 0,
+                    lastlawan: 0,
+                    lastlatih: 0,
                 }
                 let chat = global.db.data.chats[m.chat]
                 if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
@@ -533,6 +542,8 @@ module.exports = {
                     if (!('antiSticker' in chat)) chat.antiSticker = false
                     if (!('stiker' in chat)) chat.stiker = false
                     if (!('simi' in chat)) chat.simi = false
+                    if (!('mute' in chat)) chat.mute = true 
+                    if (!('download' in chat)) chat.download = false 
                     if (!('viewonce' in chat)) chat.viewonce = false
                     if (!('useDocument' in chat)) chat.useDocument = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
@@ -549,6 +560,8 @@ module.exports = {
                     antiLink: false,
                     stiker: false,
                     simi: false,
+                    mute: true,
+                    download: false,
                     antiSticker: false,
                     viewonce: false,
                     useDocument: false,
@@ -570,6 +583,7 @@ module.exports = {
             const isMods = isOwner || global.mods.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
             const isPrems = global.db.data.users[m.sender].premium
             const isBans = global.db.data.users[m.sender].banned
+            const isCreated = global.db.data.users[m.sender].created
 
             if (opts['queque'] && m.text && !(isMods || isPrems)) {
                 let queque = this.msgqueque, time = 1000 * 5
@@ -652,11 +666,13 @@ module.exports = {
                     bot,
                     isROwner,
                     isOwner,
+                    isMods,
                     isRAdmin,
                     isAdmin,
                     isBotAdmin,
                     isPrems,
                     isBans,
+                    isCreated,
                     chatUpdate,
                 })) continue
                 if (typeof plugin !== 'function') continue
@@ -711,6 +727,10 @@ module.exports = {
                         fail('banned', m, this)
                         continue
                     }
+                    if (plugin.created && !isCreated) { // Created
+                         fail('created', m, this)
+                         continue
+                    }
                     if (plugin.group && !m.isGroup) { // Group Only
                         fail('group', m, this)
                         continue
@@ -757,11 +777,13 @@ module.exports = {
                         bot,
                         isROwner,
                         isOwner,
+                        isMods,
                         isRAdmin,
                         isAdmin,
                         isBotAdmin,
                         isPrems,
                         isBans,
+                        isCreated,
                         chatUpdate,
                     }
                     try {
@@ -839,7 +861,7 @@ module.exports = {
             // } catch (e) {
             //     console.log(m, m.quoted, e)
             // }
-            if (opts['autoread']) await this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
+            if (opts['autoread']) await this.readMessages([m.key]) //this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
         }
     },
     async participantsUpdate({ id, participants, action }) {
@@ -934,6 +956,7 @@ global.dfail = (type, m, conn) => {
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
         premium: '*Premium*\nHubungi *owner* kami..', 
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
+        created: 'Perintah ini hanya pengguna yang sudah membuat base\nContoh: #createbase NightWolf',
         group: 'Perintah ini hanya dapat digunakan di grup!',
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
