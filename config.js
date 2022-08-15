@@ -12,6 +12,9 @@ mods = [
   ['6285156957462', 'REXX'],
   ['6282122955409', 'DIMM']
 ] // Want some help?
+global.namebot = 'NightWolf BOT'
+global.gc = 'https://chat.whatsapp.com/BsUtQUUtUrqHkE7kY3GonV'
+global.web = 'https://github.com/NightWolf324'
 prems = [] // Premium user has unlimited limit
 APIs = { // API Prefix
   // name: 'https://website'
