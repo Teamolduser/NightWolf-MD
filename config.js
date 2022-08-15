@@ -15,6 +15,7 @@ mods = [
 global.namebot = 'NightWolf BOT'
 global.gc = 'https://chat.whatsapp.com/BsUtQUUtUrqHkE7kY3GonV'
 global.web = 'https://github.com/NightWolf324'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 prems = [] // Premium user has unlimited limit
 APIs = { // API Prefix
   // name: 'https://website'
