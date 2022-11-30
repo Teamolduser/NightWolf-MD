@@ -8,10 +8,7 @@ owner = [
   ['6285640104318', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-mods = [
-  ['6285156957462', 'REXX'],
-  ['6282122955409', 'DIMM']
-] // Want some help?
+mods = [] // Want some help?
 global.namebot = 'NightWolf BOT'
 global.gc = 'https://chat.whatsapp.com/BsUtQUUtUrqHkE7kY3GonV'
 global.web = 'https://github.com/NightWolf324'
