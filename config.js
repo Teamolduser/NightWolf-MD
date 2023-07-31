@@ -2,10 +2,7 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 owner = [
-  ['6285640104318'],
-  ['62895330379186'],
-  ['6281548286895'],
-  ['6285640104318', 'Owner', true]
+  ['918602239106', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
@@ -41,6 +38,10 @@ APIKeys = { // APIKey Here
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
+
+module.exports = {
+  sessionName: process.env.SESSION_ID || ""
+};
 
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
