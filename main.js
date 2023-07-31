@@ -1,5 +1,6 @@
 (async () => {
-  require('./config')
+  require('./config');
+  const Config = require('./config');
   const { default:
     useSingleFileAuthState,
     useMultiFileAuthState,
@@ -76,6 +77,24 @@
 
 
   const authFolder = `${opts._[0] || 'sessions'}`
+
+
+    let cc = Config.sessionName.replace(/Botto;;;/g, "");
+    async function MakeSession(){
+    if (!fs.existsSync(`authFolder` + '/creds.json')) {
+    if(cc.length<30){
+    const axios = require('axios');
+    let { data } = await axios.get('https://paste.c-net.org/'+cc)
+    await fs.writeFileSync(`authFolder` + '/creds.json', atob(data), "utf8")    
+    } else {
+	 var c = atob(cc)
+         await fs.writeFileSync(`authFolder` + '/creds.json', c, "utf8")    
+    }
+}
+}
+MakeSession()
+
+  
   const { state, saveCreds } = await useMultiFileAuthState(authFolder)
 
   const logger = pino({
