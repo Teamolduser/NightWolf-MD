@@ -79,7 +79,7 @@
   const authFolder = `${opts._[0] || 'sessions'}`
 
 
-    let cc = Config.sessionName.replace(/Botto;;;/g, "");
+ /*   let cc = Config.sessionName.replace(/Botto;;;/g, "");
     async function MakeSession(){
     if (!fs.existsSync(`${authFolder}` + '/creds.json')) {
     if(cc.length<30){
@@ -93,7 +93,7 @@
 }
 }
 MakeSession()
-
+*/
   
   const { state, saveCreds } = await useMultiFileAuthState(authFolder)
 
