@@ -1,6 +1,6 @@
 (async () => {
-  require('./config');
-  const Config = require('./config');
+  require('./config.js');
+  const Config = require('./config.js');
   const { default:
     useSingleFileAuthState,
     useMultiFileAuthState,
