@@ -40,7 +40,7 @@ APIKeys = { // APIKey Here
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 module.exports = {
-  sessionName: process.env.SESSION_ID || "Botto;;;ReplyAtheist
+  sessionName: process.env.SESSION_ID || "Botto;;;ReplyAtheist"
   "
 };
 
