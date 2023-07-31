@@ -1,5 +1,5 @@
 {
-    "name": "NightWolf Bot",
+    "name": "Bot",
     "version": "08.15.10",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
@@ -43,6 +43,8 @@
         "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "0.0.81",
+        "@queenanya/baileys": "latest",
+        "@whiskeysockets/baileys": "latest",
         "acrcloud": "^1.4.0",
         "async": "^3.2.3",
         "awesome-phonenumber": "^2.73.0",
@@ -85,6 +87,7 @@
         "mongoose": "^6.3.5",
         "ms": "^2.1.3",
         "multistream": "^4.1.0",
+        "npm": "latest",
         "node-fetch": "^2.6.7",
         "node-gtts": "^2.0.2",
         "node-gyp-build": "^4.4.0",
@@ -103,6 +106,7 @@
         "qrcode-terminal": "^0.12.0",
         "qs": "^6.10.3",
         "request": "^2.88.2",
+        "re2": "latest",
         "scrape-primbon": "^1.1.0",
         "similarity": "^1.2.1",
         "socket.io": "^4.5.1",
@@ -116,6 +120,7 @@
         "util": "^0.12.4",
         "xfarr-api": "^1.0.2",
         "yargs": "^17.5.1",
+        "yarn": "latest",
         "yt-search": "^2.10.3",
         "zs-extract": "^1.4.1"
     }
