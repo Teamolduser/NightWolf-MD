@@ -40,7 +40,8 @@ APIKeys = { // APIKey Here
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 module.exports = {
-  sessionName: process.env.SESSION_ID || ""
+  sessionName: process.env.SESSION_ID || "Botto;;;ReplyAtheist
+  "
 };
 
 const spack = fs.readFileSync("lib/exif.json")
